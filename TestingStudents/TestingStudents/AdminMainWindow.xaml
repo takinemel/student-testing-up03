@@ -1,0 +1,76 @@
+﻿<Window x:Class="TestingStudents.AdminMainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Панель администратора | Тестирование студентов" Height="700" Width="1100" Style="{StaticResource AppWindowStyle}" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="260"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- боковая панель (меню) -->
+        <Border Grid.Column="0" Background="{StaticResource AccentBrush}">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- логотип -->
+                <StackPanel Grid.Row="0" Margin="24,28,24,32">
+                    <TextBlock Text="Тестирование" FontSize="20" FontWeight="SemiBold" Foreground="White"/>
+                    <TextBlock Text="студентов" FontSize="14" Foreground="#B8C4D9"/>
+                </StackPanel>
+
+                <!-- меню -->
+                <StackPanel Grid.Row="1">
+                    <Button Content="👥  Пользователи"  Style="{StaticResource PrimaryButtonStyle}" HorizontalContentAlignment="Left" Background="Transparent" Height="44" Margin="8,2" Click="UsersButton_Click"/>
+                    <Button Content="🎓  Группы" Style="{StaticResource PrimaryButtonStyle}" HorizontalContentAlignment="Left" Background="Transparent" Height="44" Margin="8,2" Click="GroupsButton_Click"/>
+                    <Button Content="📝  Тесты" Style="{StaticResource PrimaryButtonStyle}" HorizontalContentAlignment="Left" Background="Transparent" Height="44" Margin="8,2" Click="TestsButton_Click"/>
+                    <Button Content="📊  Статистика" Style="{StaticResource PrimaryButtonStyle}" HorizontalContentAlignment="Left" Background="Transparent" Height="44" Margin="8,2" Click="StatisticsButton_Click"/>
+                </StackPanel>
+
+                <!-- информация о пользователе -->
+                <StackPanel Grid.Row="2" Margin="24,0,24,24">
+                    <Border Background="#2C4F7C" CornerRadius="8" Padding="12">
+                        <StackPanel>
+                            <TextBlock Text="Администратор" FontSize="12" Foreground="#B8C4D9"/>
+                            <TextBlock Text="Мельников Н.М." FontSize="14" FontWeight="Medium" Foreground="White" Margin="0,2,0,8"/>
+                            <Button Content="Выйти" Style="{StaticResource SecondaryButtonStyle}" Height="30" FontSize="12" Click="LogoutButton_Click"/>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- основная область -->
+        <Grid Grid.Column="1" Background="{StaticResource BgLightGrayBrush}">
+            <StackPanel Margin="32,32,32,32">
+                <TextBlock Text="Добро пожаловать!" Style="{StaticResource H1Style}"/>
+                <TextBlock Text="Выберите раздел в меню слева для начала работы." Style="{StaticResource BodyStyle}" Margin="0,0,0,24"/>
+
+                <Border Style="{StaticResource CardStyle}">
+                    <StackPanel>
+                        <TextBlock Text="Возможности администратора" Style="{StaticResource H2Style}"/>
+                        <TextBlock Style="{StaticResource BodyStyle}" TextWrapping="Wrap" Margin="0,0,0,8">
+                            • Создание и управление учётными записями пользователей
+                        </TextBlock>
+                        <TextBlock Style="{StaticResource BodyStyle}" TextWrapping="Wrap" Margin="0,0,0,8">
+                            • Назначение ролей: Администратор, Преподаватель, Студент
+                        </TextBlock>
+                        <TextBlock Style="{StaticResource BodyStyle}" TextWrapping="Wrap" Margin="0,0,0,8">
+                            • Управление учебными группами
+                        </TextBlock>
+                        <TextBlock Style="{StaticResource BodyStyle}" TextWrapping="Wrap" Margin="0,0,0,8">
+                            • Создание тестов и импорт из JSON
+                        </TextBlock>
+                        <TextBlock Style="{StaticResource BodyStyle}" TextWrapping="Wrap">
+                            • Просмотр статистики по дисциплинам, группам и студентам
+                        </TextBlock>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

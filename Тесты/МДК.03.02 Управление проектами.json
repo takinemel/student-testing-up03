@@ -1,0 +1,207 @@
+{
+  "Nazvanie": "Тест по МДК.03.02 Управление проектами",
+  "Opisanie": "Базовые знания по управлению проектами",
+  "VremyaVipolneniya": 20,
+  "Voprosi": [
+    {
+      "TextVoprosa": "Что такое проект?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Временное предприятие для создания уникального продукта", "IsCorrect": true },
+        { "TextOtvet": "Постоянный процесс", "IsCorrect": false },
+        { "TextOtvet": "Отдел компании", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое устав проекта?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Документ, официально открывающий проект", "IsCorrect": true },
+        { "TextOtvet": "План закупок", "IsCorrect": false },
+        { "TextOtvet": "Отчёт о прибыли", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое WBS?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Иерархическая структура работ", "IsCorrect": true },
+        { "TextOtvet": "Система управления базами данных", "IsCorrect": false },
+        { "TextOtvet": "Метод тестирования", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое диаграмма Ганта?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Календарный план-график работ", "IsCorrect": true },
+        { "TextOtvet": "Схема базы данных", "IsCorrect": false },
+        { "TextOtvet": "Диаграмма классов", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое критический путь?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Самая длинная последовательность задач", "IsCorrect": true },
+        { "TextOtvet": "Самый короткий путь", "IsCorrect": false },
+        { "TextOtvet": "Путь с минимальной стоимостью", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое Agile?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Гибкая методология управления проектами", "IsCorrect": true },
+        { "TextOtvet": "Язык программирования", "IsCorrect": false },
+        { "TextOtvet": "СУБД", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое Scrum?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Фреймворк Agile с итерациями (спринтами)", "IsCorrect": true },
+        { "TextOtvet": "Метод тестирования", "IsCorrect": false },
+        { "TextOtvet": "Формат данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое спринт?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Итерация разработки фиксированной длительности", "IsCorrect": true },
+        { "TextOtvet": "Финальный релиз", "IsCorrect": false },
+        { "TextOtvet": "Тип диаграммы", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Кто такой Product Owner?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Владелец продукта, отвечающий за backlog", "IsCorrect": true },
+        { "TextOtvet": "Тестировщик", "IsCorrect": false },
+        { "TextOtvet": "Системный администратор", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое риск проекта?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Вероятное событие, влияющее на проект", "IsCorrect": true },
+        { "TextOtvet": "Гарантированный убыток", "IsCorrect": false },
+        { "TextOtvet": "Ошибка в коде", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое бюджет проекта?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Плановая сумма затрат", "IsCorrect": true },
+        { "TextOtvet": "Список задач", "IsCorrect": false },
+        { "TextOtvet": "Штатное расписание", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое MS Project?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Программа управления проектами", "IsCorrect": true },
+        { "TextOtvet": "Язык программирования", "IsCorrect": false },
+        { "TextOtvet": "СУБД", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое Kanban?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Метод визуализации потока задач", "IsCorrect": true },
+        { "TextOtvet": "Метод шифрования", "IsCorrect": false },
+        { "TextOtvet": "Формат документа", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое веха (milestone)?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Ключевое событие без длительности", "IsCorrect": true },
+        { "TextOtvet": "Длинная задача", "IsCorrect": false },
+        { "TextOtvet": "Ресурс проекта", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое заинтересованная сторона (stakeholder)?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Лицо или группа, влияющая на проект", "IsCorrect": true },
+        { "TextOtvet": "Только заказчик", "IsCorrect": false },
+        { "TextOtvet": "Только инвестор", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое оценка трудозатрат?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Определение времени и ресурсов на задачи", "IsCorrect": true },
+        { "TextOtvet": "Расчёт прибыли", "IsCorrect": false },
+        { "TextOtvet": "Проверка кода", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое PMBOK?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Свод знаний по управлению проектами", "IsCorrect": true },
+        { "TextOtvet": "Язык разметки", "IsCorrect": false },
+        { "TextOtvet": "Стандарт шифрования", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое контроль изменений?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Процесс управления изменениями в проекте", "IsCorrect": true },
+        { "TextOtvet": "Удаление задач", "IsCorrect": false },
+        { "TextOtvet": "Смена команды", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое закрытие проекта?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Формальное завершение и передача результатов", "IsCorrect": true },
+        { "TextOtvet": "Начало проекта", "IsCorrect": false },
+        { "TextOtvet": "Планирование", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое KPI проекта?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Ключевой показатель эффективности", "IsCorrect": true },
+        { "TextOtvet": "Тип диаграммы", "IsCorrect": false },
+        { "TextOtvet": "Формат отчёта", "IsCorrect": false }
+      ]
+    }
+  ]
+}

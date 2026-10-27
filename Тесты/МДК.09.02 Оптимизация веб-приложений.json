@@ -1,0 +1,207 @@
+{
+  "Nazvanie": "Тест по МДК.09.02 Оптимизация веб-приложений",
+  "Opisanie": "Базовые знания по оптимизации веб-приложений",
+  "VremyaVipolneniya": 20,
+  "Voprosi": [
+    {
+      "TextVoprosa": "Что такое оптимизация веб-приложения?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Улучшение скорости и эффективности", "IsCorrect": true },
+        { "TextOtvet": "Смена дизайна", "IsCorrect": false },
+        { "TextOtvet": "Добавление функций", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое время загрузки?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Время до отображения страницы", "IsCorrect": true },
+        { "TextOtvet": "Время работы сервера", "IsCorrect": false },
+        { "TextOtvet": "Время компиляции", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое кэширование?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Сохранение данных для быстрого доступа", "IsCorrect": true },
+        { "TextOtvet": "Удаление данных", "IsCorrect": false },
+        { "TextOtvet": "Шифрование", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое CDN?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Сеть доставки контента", "IsCorrect": true },
+        { "TextOtvet": "База данных", "IsCorrect": false },
+        { "TextOtvet": "Язык программирования", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое минификация?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Удаление лишних символов из кода", "IsCorrect": true },
+        { "TextOtvet": "Сжатие изображений", "IsCorrect": false },
+        { "TextOtvet": "Кэширование", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое сжатие Gzip?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Алгоритм сжатия HTTP-ответов", "IsCorrect": true },
+        { "TextOtvet": "Формат изображений", "IsCorrect": false },
+        { "TextOtvet": "База данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое lazy loading?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Отложенная загрузка элементов", "IsCorrect": true },
+        { "TextOtvet": "Предзагрузка", "IsCorrect": false },
+        { "TextOtvet": "Кэширование", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое оптимизация изображений?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Уменьшение размера без потери качества", "IsCorrect": true },
+        { "TextOtvet": "Увеличение разрешения", "IsCorrect": false },
+        { "TextOtvet": "Смена формата", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое WebP?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Формат изображений с хорошим сжатием", "IsCorrect": true },
+        { "TextOtvet": "Видеоформат", "IsCorrect": false },
+        { "TextOtvet": "Аудиоформат", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое Lighthouse?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Инструмент аудита веб-страниц", "IsCorrect": true },
+        { "TextOtvet": "СУБД", "IsCorrect": false },
+        { "TextOtvet": "Язык программирования", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое Core Web Vitals?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Метрики качества веб-страниц", "IsCorrect": true },
+        { "TextOtvet": "Библиотека", "IsCorrect": false },
+        { "TextOtvet": "Фреймворк", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое LCP?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Время отображения основного контента", "IsCorrect": true },
+        { "TextOtvet": "Время отклика", "IsCorrect": false },
+        { "TextOtvet": "Сдвиг макета", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое CLS?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Сдвиг макета", "IsCorrect": true },
+        { "TextOtvet": "Скорость загрузки", "IsCorrect": false },
+        { "TextOtvet": "Время отклика", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое FID?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Время до первого взаимодействия", "IsCorrect": true },
+        { "TextOtvet": "Сдвиг макета", "IsCorrect": false },
+        { "TextOtvet": "Размер страницы", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое HTTP/2?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Версия протокола с мультиплексированием", "IsCorrect": true },
+        { "TextOtvet": "Формат данных", "IsCorrect": false },
+        { "TextOtvet": "СУБД", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое оптимизация запросов к БД?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Ускорение выполнения запросов", "IsCorrect": true },
+        { "TextOtvet": "Удаление данных", "IsCorrect": false },
+        { "TextOtvet": "Шифрование", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое индекс в БД?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Структура для ускорения поиска", "IsCorrect": true },
+        { "TextOtvet": "Таблица", "IsCorrect": false },
+        { "TextOtvet": "Ключ", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое балансировка нагрузки?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Распределение запросов между серверами", "IsCorrect": true },
+        { "TextOtvet": "Сжатие данных", "IsCorrect": false },
+        { "TextOtvet": "Кэширование", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое мониторинг производительности?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Наблюдение за показателями работы", "IsCorrect": true },
+        { "TextOtvet": "Разработка кода", "IsCorrect": false },
+        { "TextOtvet": "Дизайн", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое профилирование?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Анализ узких мест производительности", "IsCorrect": true },
+        { "TextOtvet": "Тестирование", "IsCorrect": false },
+        { "TextOtvet": "Сборка", "IsCorrect": false }
+      ]
+    }
+  ]
+}

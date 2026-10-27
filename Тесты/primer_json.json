@@ -1,0 +1,16 @@
+{
+    "Nazvanie": "Тест по Bootstrap",
+    "Opisanie": "Базовые знания",
+    "VremyaVipolneniya": 15,
+    "Voprosi": [
+      {
+        "TextVoprosa": "Какой класс используется для навигации?",
+        "TipVoprosa": "Single",
+        "KolVoBallov": 1,
+        "Otvety": [
+          { "TextOtvet": "navbar-expand-lg", "IsCorrect": true },
+          { "TextOtvet": "navbar-collapse", "IsCorrect": false }
+        ]
+      }
+    ]
+  }

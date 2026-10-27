@@ -1,0 +1,207 @@
+{
+  "Nazvanie": "Тест по курсовому проекту",
+  "Opisanie": "Базовые знания по выполнению курсового проекта",
+  "VremyaVipolneniya": 20,
+  "Voprosi": [
+    {
+      "TextVoprosa": "Что такое курсовой проект?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Самостоятельная учебная работа", "IsCorrect": true },
+        { "TextOtvet": "Лекция", "IsCorrect": false },
+        { "TextOtvet": "Экзамен", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое тема курсового проекта?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Предмет исследования", "IsCorrect": true },
+        { "TextOtvet": "Оценка", "IsCorrect": false },
+        { "TextOtvet": "Срок сдачи", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое цель курсового проекта?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Ожидаемый результат работы", "IsCorrect": true },
+        { "TextOtvet": "Список литературы", "IsCorrect": false },
+        { "TextOtvet": "Приложение", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое задачи курсового проекта?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Шаги для достижения цели", "IsCorrect": true },
+        { "TextOtvet": "Выводы", "IsCorrect": false },
+        { "TextOtvet": "Титульный лист", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое объект исследования?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Процесс или явление", "IsCorrect": true },
+        { "TextOtvet": "Метод", "IsCorrect": false },
+        { "TextOtvet": "Гипотеза", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое предмет исследования?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Конкретная сторона объекта", "IsCorrect": true },
+        { "TextOtvet": "Цель", "IsCorrect": false },
+        { "TextOtvet": "Задача", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое актуальность темы?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Важность и востребованность", "IsCorrect": true },
+        { "TextOtvet": "Сложность", "IsCorrect": false },
+        { "TextOtvet": "Новизна", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое гипотеза?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Предположение для проверки", "IsCorrect": true },
+        { "TextOtvet": "Вывод", "IsCorrect": false },
+        { "TextOtvet": "Факт", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое метод исследования?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Способ достижения цели", "IsCorrect": true },
+        { "TextOtvet": "Результат", "IsCorrect": false },
+        { "TextOtvet": "Ошибка", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое анализ литературы?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Изучение источников по теме", "IsCorrect": true },
+        { "TextOtvet": "Написание кода", "IsCorrect": false },
+        { "TextOtvet": "Тестирование", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое введение курсового проекта?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Раздел с актуальностью, целью, задачами", "IsCorrect": true },
+        { "TextOtvet": "Список литературы", "IsCorrect": false },
+        { "TextOtvet": "Приложение", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое основная часть?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Разделы с решением задач", "IsCorrect": true },
+        { "TextOtvet": "Титульный лист", "IsCorrect": false },
+        { "TextOtvet": "Содержание", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое заключение?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Итоги и выводы", "IsCorrect": true },
+        { "TextOtvet": "Введение", "IsCorrect": false },
+        { "TextOtvet": "Глоссарий", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое список литературы?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Перечень использованных источников", "IsCorrect": true },
+        { "TextOtvet": "Приложение", "IsCorrect": false },
+        { "TextOtvet": "Содержание", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое приложение в курсовом проекте?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Дополнительные материалы", "IsCorrect": true },
+        { "TextOtvet": "Введение", "IsCorrect": false },
+        { "TextOtvet": "Заключение", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое оформление курсового проекта?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Соблюдение стандартов оформления", "IsCorrect": true },
+        { "TextOtvet": "Содержание", "IsCorrect": false },
+        { "TextOtvet": "Защита", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое защита курсового проекта?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Представление и обоснование работы", "IsCorrect": true },
+        { "TextOtvet": "Написание", "IsCorrect": false },
+        { "TextOtvet": "Рецензия", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое рецензия?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Отзыв на работу", "IsCorrect": true },
+        { "TextOtvet": "Титульный лист", "IsCorrect": false },
+        { "TextOtvet": "План", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое плагиат?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Копирование чужой работы", "IsCorrect": true },
+        { "TextOtvet": "Цитирование", "IsCorrect": false },
+        { "TextOtvet": "Пародия", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое презентация к защите?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Наглядные материалы для доклада", "IsCorrect": true },
+        { "TextOtvet": "Текст работы", "IsCorrect": false },
+        { "TextOtvet": "Список литературы", "IsCorrect": false }
+      ]
+    }
+  ]
+}

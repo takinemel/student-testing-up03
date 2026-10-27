@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u042F\u0413\u041A\\4 \u041A\u0423\u0420\u0421\\\u0423\u041F03\\up03_melnikov_prilojenie\\TestingStudents\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16707379-0A3B-478D-BD2A-F8D4D3CC62F7}|TestingStudents\\TestingStudents.csproj|d:\\\u044F\u0433\u043A\\4 \u043A\u0443\u0440\u0441\\\u0443\u043F03\\up03_melnikov_prilojenie\\testingstudents\\testingstudents\\adminuserswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16707379-0A3B-478D-BD2A-F8D4D3CC62F7}|TestingStudents\\TestingStudents.csproj|solutionrelative:testingstudents\\adminuserswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16707379-0A3B-478D-BD2A-F8D4D3CC62F7}|TestingStudents\\TestingStudents.csproj|D:\\\u042F\u0413\u041A\\4 \u041A\u0423\u0420\u0421\\\u0423\u041F03\\up03_melnikov_prilojenie\\TestingStudents\\testingstudents\\adminuserswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16707379-0A3B-478D-BD2A-F8D4D3CC62F7}|TestingStudents\\TestingStudents.csproj|solutionrelative:testingstudents\\adminuserswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminUsersWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u042F\u0413\u041A\\4 \u041A\u0423\u0420\u0421\\\u0423\u041F03\\up03_melnikov_prilojenie\\TestingStudents\\TestingStudents\\AdminUsersWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TestingStudents\\AdminUsersWindow.xaml.cs",
+              "ToolTip": "D:\\\u042F\u0413\u041A\\4 \u041A\u0423\u0420\u0421\\\u0423\u041F03\\up03_melnikov_prilojenie\\TestingStudents\\TestingStudents\\AdminUsersWindow.xaml.cs",
+              "RelativeToolTip": "TestingStudents\\AdminUsersWindow.xaml.cs",
+              "ViewState": "AgIAAAoDAAAAAAAAAAAAAD8DAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T07:01:26.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminUsersWindow.xaml",
+              "DocumentMoniker": "D:\\\u042F\u0413\u041A\\4 \u041A\u0423\u0420\u0421\\\u0423\u041F03\\up03_melnikov_prilojenie\\TestingStudents\\TestingStudents\\AdminUsersWindow.xaml",
+              "RelativeDocumentMoniker": "TestingStudents\\AdminUsersWindow.xaml",
+              "ToolTip": "D:\\\u042F\u0413\u041A\\4 \u041A\u0423\u0420\u0421\\\u0423\u041F03\\up03_melnikov_prilojenie\\TestingStudents\\TestingStudents\\AdminUsersWindow.xaml",
+              "RelativeToolTip": "TestingStudents\\AdminUsersWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-10T07:00:56.302Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

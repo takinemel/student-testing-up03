@@ -1,0 +1,408 @@
+﻿<Window x:Class="TestingStudents.TeacherMainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Кабинет преподавателя | Тестирование студентов"
+        Height="760" Width="1280"
+        Style="{StaticResource AppWindowStyle}"
+        Loaded="Window_Loaded"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="260"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- ============ БОКОВАЯ ПАНЕЛЬ ============ -->
+        <Border Grid.Column="0" Background="{StaticResource AccentBrush}">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" Margin="24,28,24,32">
+                    <TextBlock Text="Тестирование" FontSize="20" FontWeight="SemiBold"
+                               Foreground="White"/>
+                    <TextBlock Text="студентов" FontSize="14" Foreground="#B8C4D9"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="1">
+                    <Button Name="PredmetsButton" Content="📚  Мои дисциплины"
+                            Style="{StaticResource PrimaryButtonStyle}"
+                            HorizontalContentAlignment="Left"
+                            Background="Transparent" Height="44"
+                            Margin="8,2" Click="PredmetsButton_Click"/>
+                    <Button Name="TestsButton" Content="📝  Мои тесты"
+                            Style="{StaticResource PrimaryButtonStyle}"
+                            HorizontalContentAlignment="Left"
+                            Background="Transparent" Height="44"
+                            Margin="8,2" Click="TestsButton_Click"/>
+                    <Button Name="ResultsButton" Content="📊  Результаты студентов"
+                            Style="{StaticResource PrimaryButtonStyle}"
+                            HorizontalContentAlignment="Left"
+                            Background="Transparent" Height="44"
+                            Margin="8,2" Click="ResultsButton_Click"/>
+                    <Button Name="ReportsButton" Content="📈  Отчёты"
+                            Style="{StaticResource PrimaryButtonStyle}"
+                            HorizontalContentAlignment="Left"
+                            Background="Transparent" Height="44"
+                            Margin="8,2" Click="ReportsButton_Click"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="2" Margin="24,0,24,24">
+                    <Border Background="#2C4F7C" CornerRadius="8" Padding="12">
+                        <StackPanel>
+                            <TextBlock Text="Преподаватель" FontSize="12" Foreground="#B8C4D9"/>
+                            <TextBlock Name="SidebarUserNameTextBlock"
+                                       Text="—" FontSize="14" FontWeight="Medium"
+                                       Foreground="White" Margin="0,2,0,8"
+                                       TextWrapping="Wrap"/>
+                            <Button Content="Выйти"
+                                    Style="{StaticResource SecondaryButtonStyle}"
+                                    Height="30" FontSize="12"
+                                    Click="LogoutButton_Click"/>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- ============ ОСНОВНАЯ ОБЛАСТЬ ============ -->
+        <Grid Grid.Column="1" Background="{StaticResource BgLightGrayBrush}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Шапка -->
+            <Border Grid.Row="0" Background="{StaticResource BgWhiteBrush}"
+                    BorderBrush="#DEE2E6" BorderThickness="0,0,0,1"
+                    Padding="24,16">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0">
+                        <TextBlock Name="PageTitleTextBlock"
+                                   Text="Мои дисциплины"
+                                   Style="{StaticResource H2Style}"
+                                   Margin="0"/>
+                        <TextBlock Name="PageSubtitleTextBlock"
+                                   Text="Дисциплины, закреплённые за вами"
+                                   Style="{StaticResource CaptionStyle}"
+                                   Margin="0,2,0,0"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1" HorizontalAlignment="Right">
+                        <TextBlock Name="HeaderUserNameTextBlock"
+                                   Text="—"
+                                   Style="{StaticResource BodyStyle}"
+                                   FontWeight="Medium"
+                                   HorizontalAlignment="Right"/>
+                        <TextBlock Name="HeaderPredmetsCountTextBlock"
+                                   Text="—"
+                                   Style="{StaticResource CaptionStyle}"
+                                   HorizontalAlignment="Right"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <!-- Область содержимого -->
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto"
+                          Padding="24">
+                <Grid>
+                    <!--  МОИ ДИСЦИПЛИНЫ  -->
+                    <StackPanel Name="PredmetsPanel" Visibility="Visible">
+                        <Border Style="{StaticResource CardStyle}" Padding="0">
+                            <DataGrid Name="dgMyPredmets"
+                                      Style="{StaticResource AppDataGridStyle}"
+                                      AutoGenerateColumns="False"
+                                      IsReadOnly="True">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="ID"
+                                                        Binding="{Binding IDPredmet}"
+                                                        Width="60"/>
+                                    <DataGridTextColumn Header="Дисциплина"
+                                                        Binding="{Binding Nazvanie}"
+                                                        Width="*"/>
+                                    <DataGridTextColumn Header="Описание"
+                                                        Binding="{Binding Opisanie}"
+                                                        Width="2*"/>
+                                    <DataGridTextColumn Header="Тестов"
+                                                        Binding="{Binding TestCount}"
+                                                        Width="100"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Border>
+
+                        <Border Style="{StaticResource CardStyle}">
+                            <StackPanel>
+                                <TextBlock Text="Что можно сделать с дисциплиной?"
+                                           Style="{StaticResource SubtitleStyle}"
+                                           Margin="0,0,0,8"/>
+                                <TextBlock Style="{StaticResource BodyStyle}"
+                                           TextWrapping="Wrap"
+                                           Text="• Просматривать и создавать тесты по своим дисциплинам (раздел «Мои тесты»)."/>
+                                <TextBlock Style="{StaticResource BodyStyle}"
+                                           TextWrapping="Wrap" Margin="0,4,0,0"
+                                           Text="• Смотреть результаты студентов по своим дисциплинам (раздел «Результаты студентов»)."/>
+                                <TextBlock Style="{StaticResource BodyStyle}"
+                                           TextWrapping="Wrap" Margin="0,4,0,0"
+                                           Text="• Формировать отчёты с диаграммами (раздел «Отчёты»)."/>
+                                <TextBlock Style="{StaticResource CaptionStyle}"
+                                           TextWrapping="Wrap" Margin="0,12,0,0"
+                                           Text="Управление пользователями и группами — не входит в ваши права."/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+
+                    <!--  МОИ ТЕСТЫ  -->
+                    <StackPanel Name="TestsPanel" Visibility="Collapsed">
+                        <Border Style="{StaticResource CardStyle}" Padding="0">
+                            <DataGrid Name="dgMyTests"
+                                      Style="{StaticResource AppDataGridStyle}"
+                                      AutoGenerateColumns="False"
+                                      IsReadOnly="True"
+                                      SelectionChanged="dgMyTests_SelectionChanged">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="ID"
+                                                        Binding="{Binding IDTest}"
+                                                        Width="60"/>
+                                    <DataGridTextColumn Header="Название теста"
+                                                        Binding="{Binding Nazvanie}"
+                                                        Width="*"/>
+                                    <DataGridTextColumn Header="Дисциплина"
+                                                        Binding="{Binding NazvaniePredmeta}"
+                                                        Width="200"/>
+                                    <DataGridTextColumn Header="Описание"
+                                                        Binding="{Binding Opisanie}"
+                                                        Width="2*"/>
+                                    <DataGridTextColumn Header="Время (мин)"
+                                                        Binding="{Binding Vremya_vipolneniya}"
+                                                        Width="110"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Border>
+
+                        <Border Style="{StaticResource CardStyle}">
+                            <StackPanel>
+                                <TextBlock Text="Что можно сделать с тестом?"
+                                           Style="{StaticResource SubtitleStyle}"
+                                           Margin="0,0,0,8"/>
+                                <TextBlock Style="{StaticResource BodyStyle}"
+                                           TextWrapping="Wrap"
+                                           Text="• Настроить параметры теста: название, описание, ограничение по времени."/>
+                                <TextBlock Style="{StaticResource BodyStyle}"
+                                           TextWrapping="Wrap" Margin="0,4,0,0"
+                                           Text="• Просмотреть результаты студентов, прошедших этот тест."/>
+                                <TextBlock Style="{StaticResource CaptionStyle}"
+                                           TextWrapping="Wrap" Margin="0,12,0,0"
+                                           Text="Создание новых тестов и импорт из JSON — только через администратора."/>
+                                <Button Name="ViewTestResultsButton"
+                                        Content="Показать результаты по выбранному тесту"
+                                        Style="{StaticResource SuccessButtonStyle}"
+                                        Width="320"
+                                        HorizontalAlignment="Left"
+                                        Margin="0,16,0,0"
+                                        Click="ViewTestResultsButton_Click"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+
+                    <!--  РЕЗУЛЬТАТЫ СТУДЕНТОВ  -->
+                    <StackPanel Name="ResultsPanel" Visibility="Collapsed">
+                        <!-- Фильтры -->
+                        <Border Style="{StaticResource CardStyle}" Margin="0,0,0,16">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="200"/>
+                                    <ColumnDefinition Width="12"/>
+                                    <ColumnDefinition Width="200"/>
+                                    <ColumnDefinition Width="12"/>
+                                    <ColumnDefinition Width="200"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <StackPanel Grid.Column="0">
+                                    <TextBlock Text="Дисциплина"
+                                               Style="{StaticResource FieldLabelStyle}"/>
+                                    <ComboBox Name="FilterPredmetComboBox"
+                                              Style="{StaticResource AppComboBoxStyle}"
+                                              DisplayMemberPath="Nazvanie"
+                                              SelectedValuePath="IDPredmet"
+                                              SelectionChanged="Filter_SelectionChanged"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Column="2">
+                                    <TextBlock Text="Тест"
+                                               Style="{StaticResource FieldLabelStyle}"/>
+                                    <ComboBox Name="FilterTestComboBox"
+                                              Style="{StaticResource AppComboBoxStyle}"
+                                              DisplayMemberPath="Nazvanie"
+                                              SelectedValuePath="IDTest"
+                                              SelectionChanged="Filter_SelectionChanged"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Column="4">
+                                    <TextBlock Text="Группа"
+                                               Style="{StaticResource FieldLabelStyle}"/>
+                                    <ComboBox Name="FilterGroupComboBox"
+                                              Style="{StaticResource AppComboBoxStyle}"
+                                              DisplayMemberPath="Nazvanie"
+                                              SelectedValuePath="IDGroup"
+                                              SelectionChanged="Filter_SelectionChanged"/>
+                                </StackPanel>
+
+                                <Button Grid.Column="6"
+                                        Content="Сбросить"
+                                        Style="{StaticResource SecondaryButtonStyle}"
+                                        Width="130" Height="32"
+                                        VerticalAlignment="Bottom"
+                                        Click="ResetFiltersButton_Click"/>
+                            </Grid>
+                        </Border>
+
+                        <!-- Таблица результатов -->
+                        <Border Style="{StaticResource CardStyle}" Padding="0">
+                            <DataGrid Name="dgResults"
+                                      Style="{StaticResource AppDataGridStyle}"
+                                      AutoGenerateColumns="False"
+                                      IsReadOnly="True">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Студент"
+                                                        Binding="{Binding FIO}" Width="*"/>
+                                    <DataGridTextColumn Header="Группа"
+                                                        Binding="{Binding GroupNazvanie}" Width="130"/>
+                                    <DataGridTextColumn Header="Дисциплина"
+                                                        Binding="{Binding PredmetNazvanie}" Width="180"/>
+                                    <DataGridTextColumn Header="Тест"
+                                                        Binding="{Binding TestNazvanie}" Width="200"/>
+                                    <DataGridTextColumn Header="Баллы"
+                                                        Binding="{Binding Balli}" Width="80"/>
+                                    <DataGridTextColumn Header="Процент"
+                                                        Binding="{Binding Procent, StringFormat={}{0:F1}%}"
+                                                        Width="100"/>
+                                    <DataGridTextColumn Header="Оценка"
+                                                        Binding="{Binding Ocenka}" Width="90"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Border>
+                    </StackPanel>
+
+                    <!--  ОТЧЁТЫ  -->
+                    <StackPanel Name="ReportsPanel" Visibility="Collapsed">
+                        <!-- Сводка -->
+                        <Grid Margin="0,0,0,16">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="16"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="16"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Border Grid.Column="0" Style="{StaticResource CardStyle}" Padding="16">
+                                <StackPanel>
+                                    <TextBlock Text="Всего прошли тесты"
+                                               Style="{StaticResource CaptionStyle}"/>
+                                    <TextBlock Name="TotalPassesTextBlock" Text="0"
+                                               FontSize="28" FontWeight="SemiBold"
+                                               Foreground="{StaticResource AccentBrush}"
+                                               Margin="0,4,0,0"/>
+                                </StackPanel>
+                            </Border>
+
+                            <Border Grid.Column="2" Style="{StaticResource CardStyle}" Padding="16">
+                                <StackPanel>
+                                    <TextBlock Text="Средний процент"
+                                               Style="{StaticResource CaptionStyle}"/>
+                                    <TextBlock Name="AveragePercentTextBlock" Text="—"
+                                               FontSize="28" FontWeight="SemiBold"
+                                               Foreground="{StaticResource SuccessBrush}"
+                                               Margin="0,4,0,0"/>
+                                </StackPanel>
+                            </Border>
+
+                            <Border Grid.Column="4" Style="{StaticResource CardStyle}" Padding="16">
+                                <StackPanel>
+                                    <TextBlock Text="Сдали успешно"
+                                               Style="{StaticResource CaptionStyle}"/>
+                                    <TextBlock Name="PassedCountTextBlock" Text="0"
+                                               FontSize="28" FontWeight="SemiBold"
+                                               Foreground="{StaticResource SuccessBrush}"
+                                               Margin="0,4,0,0"/>
+                                </StackPanel>
+                            </Border>
+                        </Grid>
+
+                        <!-- Диаграмма по дисциплинам -->
+                        <Border Style="{StaticResource CardStyle}">
+                            <StackPanel>
+                                <TextBlock Text="Средний процент по моим дисциплинам"
+                                           Style="{StaticResource H2Style}"
+                                           Margin="0,0,0,16"/>
+                                <ItemsControl Name="PredmetChartItems">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid Margin="0,0,0,10">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="220"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="80"/>
+                                                </Grid.ColumnDefinitions>
+
+                                                <TextBlock Grid.Column="0"
+                                                           Text="{Binding Nazvanie}"
+                                                           Style="{StaticResource BodyStyle}"
+                                                           TextTrimming="CharacterEllipsis"
+                                                           VerticalAlignment="Center"/>
+
+                                                <Border Grid.Column="1"
+                                                        Height="22"
+                                                        Background="#E9ECEF"
+                                                        CornerRadius="4"
+                                                        Margin="8,0">
+                                                    <Border HorizontalAlignment="Left"
+                                                            Background="{StaticResource AccentBrush}"
+                                                            CornerRadius="4"
+                                                            Width="{Binding BarWidth}"/>
+                                                </Border>
+
+                                                <TextBlock Grid.Column="2"
+                                                           Text="{Binding AvgPercent, StringFormat={}{0:F1}%}"
+                                                           Style="{StaticResource BodyStyle}"
+                                                           HorizontalAlignment="Right"
+                                                           VerticalAlignment="Center"/>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Кнопки экспорта -->
+                        <Border Style="{StaticResource CardStyle}">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Name="ExportPdfButton"
+                                        Content="📄 Экспорт в PDF"
+                                        Style="{StaticResource SuccessButtonStyle}"
+                                        Width="180" Height="36" Margin="0,0,8,0"
+                                        Click="ExportPdfButton_Click"/>
+                                <Button Name="PrintButton"
+                                        Content="🖨 Печать"
+                                        Style="{StaticResource PrimaryButtonStyle}"
+                                        Width="140" Height="36"
+                                        Click="PrintButton_Click"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                </Grid>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Window>

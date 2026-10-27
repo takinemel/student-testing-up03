@@ -1,0 +1,207 @@
+{
+  "Nazvanie": "Тест по МДК.03.01 Моделирование и анализ ПО",
+  "Opisanie": "Базовые знания по моделированию и анализу программного обеспечения",
+  "VremyaVipolneniya": 20,
+  "Voprosi": [
+    {
+      "TextVoprosa": "Что такое UML?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Унифицированный язык моделирования", "IsCorrect": true },
+        { "TextOtvet": "Язык программирования", "IsCorrect": false },
+        { "TextOtvet": "СУБД", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Какая диаграмма UML показывает взаимодействие объектов во времени?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Диаграмма последовательности", "IsCorrect": true },
+        { "TextOtvet": "Диаграмма классов", "IsCorrect": false },
+        { "TextOtvet": "Диаграмма компонентов", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что описывает диаграмма классов?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Структуру классов, их атрибуты и связи", "IsCorrect": true },
+        { "TextOtvet": "Последовательность операций", "IsCorrect": false },
+        { "TextOtvet": "Развёртывание на серверах", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое варианты использования (use case)?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Сценарии взаимодействия пользователя с системой", "IsCorrect": true },
+        { "TextOtvet": "Схема базы данных", "IsCorrect": false },
+        { "TextOtvet": "Алгоритм сортировки", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое диаграмма деятельности?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Схема потоков управления и действий", "IsCorrect": true },
+        { "TextOtvet": "Схема классов", "IsCorrect": false },
+        { "TextOtvet": "Схема сети", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что означает аббревиатура CASE?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Computer-Aided Software Engineering", "IsCorrect": true },
+        { "TextOtvet": "Common Application Service Element", "IsCorrect": false },
+        { "TextOtvet": "Centralized Automated System Environment", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое рефакторинг?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Улучшение структуры кода без изменения поведения", "IsCorrect": true },
+        { "TextOtvet": "Добавление новых функций", "IsCorrect": false },
+        { "TextOtvet": "Удаление тестов", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое метрика программного обеспечения?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Количественная характеристика ПО", "IsCorrect": true },
+        { "TextOtvet": "Тип диаграммы", "IsCorrect": false },
+        { "TextOtvet": "Язык разметки", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что показывает диаграмма состояний?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Состояния объекта и переходы между ними", "IsCorrect": true },
+        { "TextOtvet": "Только классы", "IsCorrect": false },
+        { "TextOtvet": "Только таблицы БД", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое ER-модель?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Модель «сущность–связь»", "IsCorrect": true },
+        { "TextOtvet": "Модель процессов", "IsCorrect": false },
+        { "TextOtvet": "Модель интерфейса", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое DFD?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Диаграмма потоков данных", "IsCorrect": true },
+        { "TextOtvet": "Диаграмма классов", "IsCorrect": false },
+        { "TextOtvet": "Диаграмма развёртывания", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое IDEF0?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Методология функционального моделирования", "IsCorrect": true },
+        { "TextOtvet": "Язык программирования", "IsCorrect": false },
+        { "TextOtvet": "Формат изображений", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое контроль версий?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Управление изменениями исходного кода", "IsCorrect": true },
+        { "TextOtvet": "Сжатие файлов", "IsCorrect": false },
+        { "TextOtvet": "Шифрование данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое Git?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Распределённая система контроля версий", "IsCorrect": true },
+        { "TextOtvet": "СУБД", "IsCorrect": false },
+        { "TextOtvet": "Веб-сервер", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое тестирование «белого ящика»?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Тестирование с знанием внутренней структуры кода", "IsCorrect": true },
+        { "TextOtvet": "Тестирование без знания кода", "IsCorrect": false },
+        { "TextOtvet": "Тестирование интерфейса", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое покрытие кода?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Доля кода, выполненная тестами", "IsCorrect": true },
+        { "TextOtvet": "Количество строк кода", "IsCorrect": false },
+        { "TextOtvet": "Число разработчиков", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое запах кода (code smell)?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Признак потенциальной проблемы в коде", "IsCorrect": true },
+        { "TextOtvet": "Ошибка компиляции", "IsCorrect": false },
+        { "TextOtvet": "Стиль форматирования", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое SOLID?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Набор принципов ООП-проектирования", "IsCorrect": true },
+        { "TextOtvet": "Язык запросов", "IsCorrect": false },
+        { "TextOtvet": "Формат данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое UML-диаграмма развёртывания?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Размещение компонентов на узлах", "IsCorrect": true },
+        { "TextOtvet": "Структура классов", "IsCorrect": false },
+        { "TextOtvet": "Потоки данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое прототипирование?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Создание предварительной версии продукта", "IsCorrect": true },
+        { "TextOtvet": "Финальное тестирование", "IsCorrect": false },
+        { "TextOtvet": "Развёртывание в продакшн", "IsCorrect": false }
+      ]
+    }
+  ]
+}

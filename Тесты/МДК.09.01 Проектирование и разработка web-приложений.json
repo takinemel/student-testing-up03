@@ -1,0 +1,207 @@
+{
+  "Nazvanie": "Тест по МДК.09.01 Проектирование и разработка web-приложений",
+  "Opisanie": "Базовые знания по проектированию и разработке веб-приложений",
+  "VremyaVipolneniya": 20,
+  "Voprosi": [
+    {
+      "TextVoprosa": "Что такое HTML?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Язык разметки гипертекста", "IsCorrect": true },
+        { "TextOtvet": "Язык программирования", "IsCorrect": false },
+        { "TextOtvet": "СУБД", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое CSS?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Каскадные таблицы стилей", "IsCorrect": true },
+        { "TextOtvet": "Язык разметки", "IsCorrect": false },
+        { "TextOtvet": "База данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое JavaScript?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Язык сценариев для веб", "IsCorrect": true },
+        { "TextOtvet": "СУБД", "IsCorrect": false },
+        { "TextOtvet": "Операционная система", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое DOM?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Объектная модель документа", "IsCorrect": true },
+        { "TextOtvet": "База данных", "IsCorrect": false },
+        { "TextOtvet": "Протокол", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое HTTP?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Протокол передачи гипертекста", "IsCorrect": true },
+        { "TextOtvet": "Формат данных", "IsCorrect": false },
+        { "TextOtvet": "Язык программирования", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое HTTPS?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Защищённый HTTP", "IsCorrect": true },
+        { "TextOtvet": "Ускоренный HTTP", "IsCorrect": false },
+        { "TextOtvet": "Старый HTTP", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое фронтенд?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Клиентская часть", "IsCorrect": true },
+        { "TextOtvet": "Серверная часть", "IsCorrect": false },
+        { "TextOtvet": "База данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое бэкенд?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Серверная часть", "IsCorrect": true },
+        { "TextOtvet": "Клиентская часть", "IsCorrect": false },
+        { "TextOtvet": "Дизайн", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое фреймворк?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Каркас для разработки", "IsCorrect": true },
+        { "TextOtvet": "База данных", "IsCorrect": false },
+        { "TextOtvet": "Язык разметки", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое React?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Библиотека для UI", "IsCorrect": true },
+        { "TextOtvet": "СУБД", "IsCorrect": false },
+        { "TextOtvet": "Язык программирования", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое Vue?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "JS-фреймворк для интерфейсов", "IsCorrect": true },
+        { "TextOtvet": "База данных", "IsCorrect": false },
+        { "TextOtvet": "Сервер", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое Node.js?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Среда выполнения JS на сервере", "IsCorrect": true },
+        { "TextOtvet": "Браузер", "IsCorrect": false },
+        { "TextOtvet": "СУБД", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое Express?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Фреймворк для Node.js", "IsCorrect": true },
+        { "TextOtvet": "База данных", "IsCorrect": false },
+        { "TextOtvet": "Язык разметки", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое REST API?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Архитектура веб-сервисов", "IsCorrect": true },
+        { "TextOtvet": "База данных", "IsCorrect": false },
+        { "TextOtvet": "Формат изображений", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое JSON?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Формат обмена данными", "IsCorrect": true },
+        { "TextOtvet": "Язык программирования", "IsCorrect": false },
+        { "TextOtvet": "СУБД", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое адаптивная вёрстка?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Подстройка под экраны", "IsCorrect": true },
+        { "TextOtvet": "Только для ПК", "IsCorrect": false },
+        { "TextOtvet": "Только для мобильных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое Bootstrap?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "CSS-фреймворк", "IsCorrect": true },
+        { "TextOtvet": "Язык программирования", "IsCorrect": false },
+        { "TextOtvet": "СУБД", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое Git?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Система контроля версий", "IsCorrect": true },
+        { "TextOtvet": "База данных", "IsCorrect": false },
+        { "TextOtvet": "Фреймворк", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое хостинг?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Размещение сайта на сервере", "IsCorrect": true },
+        { "TextOtvet": "Доменное имя", "IsCorrect": false },
+        { "TextOtvet": "База данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое домен?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Адрес сайта", "IsCorrect": true },
+        { "TextOtvet": "Хостинг", "IsCorrect": false },
+        { "TextOtvet": "Сервер", "IsCorrect": false }
+      ]
+    }
+  ]
+}

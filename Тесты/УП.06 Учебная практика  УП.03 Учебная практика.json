@@ -1,0 +1,207 @@
+{
+  "Nazvanie": "Тест по УП.06 Учебная практика / УП.03 Учебная практика",
+  "Opisanie": "Базовые знания по учебной практике",
+  "VremyaVipolneniya": 20,
+  "Voprosi": [
+    {
+      "TextVoprosa": "Что такое учебная практика?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Практическое обучение в учебных условиях", "IsCorrect": true },
+        { "TextOtvet": "Работа на предприятии", "IsCorrect": false },
+        { "TextOtvet": "Лекция", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое практическое задание?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Задача для отработки навыков", "IsCorrect": true },
+        { "TextOtvet": "Тест", "IsCorrect": false },
+        { "TextOtvet": "Экзамен", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое рабочая тетрадь?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Тетрадь для записей по практике", "IsCorrect": true },
+        { "TextOtvet": "Учебник", "IsCorrect": false },
+        { "TextOtvet": "Конспект лекций", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое инструкция по выполнению задания?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Пошаговое руководство", "IsCorrect": true },
+        { "TextOtvet": "Лекция", "IsCorrect": false },
+        { "TextOtvet": "Тест", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое демонстрация навыка?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Показ умения на практике", "IsCorrect": true },
+        { "TextOtvet": "Теория", "IsCorrect": false },
+        { "TextOtvet": "Экзамен", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое техника безопасности на практике?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Правила безопасной работы", "IsCorrect": true },
+        { "TextOtvet": "Инструкция по эксплуатации", "IsCorrect": false },
+        { "TextOtvet": "Список литературы", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое программное обеспечение для практики?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Инструменты для выполнения заданий", "IsCorrect": true },
+        { "TextOtvet": "Игры", "IsCorrect": false },
+        { "TextOtvet": "Браузер", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое отчёт по учебной практике?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Документ с результатами", "IsCorrect": true },
+        { "TextOtvet": "Дневник", "IsCorrect": false },
+        { "TextOtvet": "Характеристика", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое консультация преподавателя?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Помощь в выполнении заданий", "IsCorrect": true },
+        { "TextOtvet": "Лекция", "IsCorrect": false },
+        { "TextOtvet": "Экзамен", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое самостоятельная работа на практике?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Выполнение заданий без помощи", "IsCorrect": true },
+        { "TextOtvet": "Работа в группе", "IsCorrect": false },
+        { "TextOtvet": "Лекция", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое практический экзамен?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Проверка навыков на практике", "IsCorrect": true },
+        { "TextOtvet": "Теория", "IsCorrect": false },
+        { "TextOtvet": "Тест", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое портфолио практики?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Собрание выполненных работ", "IsCorrect": true },
+        { "TextOtvet": "Дневник", "IsCorrect": false },
+        { "TextOtvet": "Отчёт", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое анализ ошибок на практике?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Разбор допущенных ошибок", "IsCorrect": true },
+        { "TextOtvet": "Исправление", "IsCorrect": false },
+        { "TextOtvet": "Повтор", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое критерии оценки практики?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Требования к результатам", "IsCorrect": true },
+        { "TextOtvet": "Отчёт", "IsCorrect": false },
+        { "TextOtvet": "Дневник", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое самооценка на практике?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Оценка своих достижений", "IsCorrect": true },
+        { "TextOtvet": "Оценка преподавателя", "IsCorrect": false },
+        { "TextOtvet": "Оценка группы", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое рефлексия на практике?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Осмысление полученного опыта", "IsCorrect": true },
+        { "TextOtvet": "Отдых", "IsCorrect": false },
+        { "TextOtvet": "Повторение", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое учебный проект?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Практическая работа по теме", "IsCorrect": true },
+        { "TextOtvet": "Лекция", "IsCorrect": false },
+        { "TextOtvet": "Тест", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое защита практики?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Представление результатов", "IsCorrect": true },
+        { "TextOtvet": "Написание отчёта", "IsCorrect": false },
+        { "TextOtvet": "Дневник", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое обратная связь от преподавателя?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Комментарии и рекомендации", "IsCorrect": true },
+        { "TextOtvet": "Приказ", "IsCorrect": false },
+        { "TextOtvet": "Инструкция", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое итоговая оценка по практике?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Оценка за выполнение заданий", "IsCorrect": true },
+        { "TextOtvet": "Отзыв", "IsCorrect": false },
+        { "TextOtvet": "Характеристика", "IsCorrect": false }
+      ]
+    }
+  ]
+}

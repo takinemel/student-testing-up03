@@ -1,0 +1,207 @@
+{
+  "Nazvanie": "Тест по ПП.06,08 Производственная практика",
+  "Opisanie": "Базовые знания по производственной практике",
+  "VremyaVipolneniya": 20,
+  "Voprosi": [
+    {
+      "TextVoprosa": "Что такое производственная практика?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Практическая работа на предприятии", "IsCorrect": true },
+        { "TextOtvet": "Лекция", "IsCorrect": false },
+        { "TextOtvet": "Экзамен", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое дневник практики?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Записи о выполненных работах", "IsCorrect": true },
+        { "TextOtvet": "Отчёт", "IsCorrect": false },
+        { "TextOtvet": "План", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое отчёт по практике?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Итоговый документ о практике", "IsCorrect": true },
+        { "TextOtvet": "Дневник", "IsCorrect": false },
+        { "TextOtvet": "Характеристика", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое характеристика с практики?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Отзыв руководителя о студенте", "IsCorrect": true },
+        { "TextOtvet": "Дневник", "IsCorrect": false },
+        { "TextOtvet": "Отчёт", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое инструктаж по технике безопасности?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Ознакомление с правилами безопасности", "IsCorrect": true },
+        { "TextOtvet": "Лекция", "IsCorrect": false },
+        { "TextOtvet": "Экзамен", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое рабочее место?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Место выполнения трудовых обязанностей", "IsCorrect": true },
+        { "TextOtvet": "Аудитория", "IsCorrect": false },
+        { "TextOtvet": "Библиотека", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое наставник на практике?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Опытный сотрудник, помогающий студенту", "IsCorrect": true },
+        { "TextOtvet": "Преподаватель", "IsCorrect": false },
+        { "TextOtvet": "Одногруппник", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое индивидуальное задание?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Конкретная задача на практику", "IsCorrect": true },
+        { "TextOtvet": "Общее задание", "IsCorrect": false },
+        { "TextOtvet": "Тест", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое профессиональная компетенция?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Способность выполнять профессиональные задачи", "IsCorrect": true },
+        { "TextOtvet": "Личное качество", "IsCorrect": false },
+        { "TextOtvet": "Оценка", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое соблюдение трудовой дисциплины?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Следование правилам предприятия", "IsCorrect": true },
+        { "TextOtvet": "Опоздания", "IsCorrect": false },
+        { "TextOtvet": "Прогулы", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое адаптация на рабочем месте?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Привыкание к условиям работы", "IsCorrect": true },
+        { "TextOtvet": "Увольнение", "IsCorrect": false },
+        { "TextOtvet": "Отпуск", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое планирование рабочего дня?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Распределение задач по времени", "IsCorrect": true },
+        { "TextOtvet": "Отдых", "IsCorrect": false },
+        { "TextOtvet": "Совещание", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое командная работа?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Совместное выполнение задач", "IsCorrect": true },
+        { "TextOtvet": "Индивидуальная работа", "IsCorrect": false },
+        { "TextOtvet": "Отдых", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое документирование работы?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Ведение записей о выполненных задачах", "IsCorrect": true },
+        { "TextOtvet": "Отдых", "IsCorrect": false },
+        { "TextOtvet": "Обсуждение", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое анализ результатов практики?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Оценка полученных навыков", "IsCorrect": true },
+        { "TextOtvet": "Написание отчёта", "IsCorrect": false },
+        { "TextOtvet": "Защита", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое обратная связь от руководителя?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Оценка и рекомендации", "IsCorrect": true },
+        { "TextOtvet": "Приказ", "IsCorrect": false },
+        { "TextOtvet": "Инструкция", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое самоанализ практики?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Рефлексия своих достижений", "IsCorrect": true },
+        { "TextOtvet": "Отчёт", "IsCorrect": false },
+        { "TextOtvet": "Дневник", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое квалификационная характеристика?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Требования к специалисту", "IsCorrect": true },
+        { "TextOtvet": "Отчёт", "IsCorrect": false },
+        { "TextOtvet": "Дневник", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое защита отчёта по практике?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Представление результатов практики", "IsCorrect": true },
+        { "TextOtvet": "Написание отчёта", "IsCorrect": false },
+        { "TextOtvet": "Дневник", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое оценка по практике?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Итоговая оценка за практику", "IsCorrect": true },
+        { "TextOtvet": "Отзыв", "IsCorrect": false },
+        { "TextOtvet": "Характеристика", "IsCorrect": false }
+      ]
+    }
+  ]
+}

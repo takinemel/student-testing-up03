@@ -1,0 +1,207 @@
+{
+  "Nazvanie": "Тест по МДК.09.03 Обеспечение безопасности веб-приложений",
+  "Opisanie": "Базовые знания по безопасности веб-приложений",
+  "VremyaVipolneniya": 20,
+  "Voprosi": [
+    {
+      "TextVoprosa": "Что такое XSS?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Межсайтовый скриптинг", "IsCorrect": true },
+        { "TextOtvet": "SQL-инъекция", "IsCorrect": false },
+        { "TextOtvet": "CSRF", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое SQL-инъекция?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Внедрение SQL-кода через ввод", "IsCorrect": true },
+        { "TextOtvet": "Атака на браузер", "IsCorrect": false },
+        { "TextOtvet": "Подбор пароля", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое CSRF?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Подделка межсайтовых запросов", "IsCorrect": true },
+        { "TextOtvet": "XSS", "IsCorrect": false },
+        { "TextOtvet": "DDoS", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое DDoS?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Распределённая атака на отказ в обслуживании", "IsCorrect": true },
+        { "TextOtvet": "Взлом пароля", "IsCorrect": false },
+        { "TextOtvet": "Кража данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое аутентификация?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Проверка подлинности пользователя", "IsCorrect": true },
+        { "TextOtvet": "Авторизация", "IsCorrect": false },
+        { "TextOtvet": "Шифрование", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое авторизация?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Проверка прав доступа", "IsCorrect": true },
+        { "TextOtvet": "Аутентификация", "IsCorrect": false },
+        { "TextOtvet": "Хэширование", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое хэширование паролей?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Необратимое преобразование пароля", "IsCorrect": true },
+        { "TextOtvet": "Шифрование", "IsCorrect": false },
+        { "TextOtvet": "Кодирование", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое HTTPS?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Защищённый протокол передачи данных", "IsCorrect": true },
+        { "TextOtvet": "Ускоренный HTTP", "IsCorrect": false },
+        { "TextOtvet": "Формат данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое SSL/TLS?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Протоколы шифрования", "IsCorrect": true },
+        { "TextOtvet": "Языки программирования", "IsCorrect": false },
+        { "TextOtvet": "СУБД", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое двухфакторная аутентификация?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Два способа подтверждения личности", "IsCorrect": true },
+        { "TextOtvet": "Два пароля", "IsCorrect": false },
+        { "TextOtvet": "Два пользователя", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое капча?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Защита от ботов", "IsCorrect": true },
+        { "TextOtvet": "Шифрование", "IsCorrect": false },
+        { "TextOtvet": "Аутентификация", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое CSRF-токен?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Секретный токен для защиты форм", "IsCorrect": true },
+        { "TextOtvet": "Пароль", "IsCorrect": false },
+        { "TextOtvet": "Ключ шифрования", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое CSP?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Политика безопасности контента", "IsCorrect": true },
+        { "TextOtvet": "Протокол передачи", "IsCorrect": false },
+        { "TextOtvet": "Формат данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое уязвимость?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Слабое место в системе", "IsCorrect": true },
+        { "TextOtvet": "Ошибка в коде", "IsCorrect": false },
+        { "TextOtvet": "Атака", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое эксплойт?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Код для использования уязвимости", "IsCorrect": true },
+        { "TextOtvet": "Антивирус", "IsCorrect": false },
+        { "TextOtvet": "Брандмауэр", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое брандмауэр?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Фильтр сетевого трафика", "IsCorrect": true },
+        { "TextOtvet": "Антивирус", "IsCorrect": false },
+        { "TextOtvet": "Прокси", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое VPN?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Виртуальная частная сеть", "IsCorrect": true },
+        { "TextOtvet": "Протокол передачи", "IsCorrect": false },
+        { "TextOtvet": "Тип шифрования", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое фишинг?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Обман для получения данных", "IsCorrect": true },
+        { "TextOtvet": "Вирус", "IsCorrect": false },
+        { "TextOtvet": "Атака на сервер", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое SQL-параметризация?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Безопасная передача параметров в запрос", "IsCorrect": true },
+        { "TextOtvet": "Шифрование БД", "IsCorrect": false },
+        { "TextOtvet": "Индексирование", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое аудит безопасности?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Проверка защищённости системы", "IsCorrect": true },
+        { "TextOtvet": "Разработка", "IsCorrect": false },
+        { "TextOtvet": "Дизайн", "IsCorrect": false }
+      ]
+    }
+  ]
+}

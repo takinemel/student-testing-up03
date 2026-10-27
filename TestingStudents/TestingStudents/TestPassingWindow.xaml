@@ -1,0 +1,90 @@
+﻿<Window x:Class="TestingStudents.TestPassingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Прохождение теста"
+        Height="700" Width="960"
+        Style="{StaticResource AppWindowStyle}"
+        WindowStartupLocation="CenterOwner"
+        Loaded="Window_Loaded"
+        Closing="Window_Closing">
+
+    <Grid Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <StackPanel Grid.Row="0" Margin="0,0,0,16">
+            <TextBlock Name="TestTitleTextBlock"
+                       Text="Загрузка теста..."
+                       Style="{StaticResource H1Style}"/>
+            <TextBlock Name="TestInfoTextBlock"
+                       Text=""
+                       Style="{StaticResource CaptionStyle}"/>
+        </StackPanel>
+
+        <!-- Прогресс и таймер -->
+        <Border Grid.Row="1" Style="{StaticResource CardStyle}" Padding="16" Margin="0,0,0,16">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <TextBlock Text="Прогресс прохождения"
+                               Style="{StaticResource FieldLabelStyle}"/>
+                    <ProgressBar Name="ProgressBarControl"
+                                 Height="16"
+                                 Minimum="0"
+                                 Maximum="100"
+                                 Value="0"
+                                 Foreground="{StaticResource SuccessBrush}"
+                                 Background="#E9ECEF"
+                                 Margin="0,6,16,0"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" Margin="16,0,0,0" VerticalAlignment="Center">
+                    <TextBlock Text="Осталось времени"
+                               Style="{StaticResource FieldLabelStyle}"/>
+                    <TextBlock Name="TimerTextBlock"
+                               Text="—"
+                               FontSize="20"
+                               FontWeight="SemiBold"
+                               Foreground="{StaticResource AccentBrush}"
+                               HorizontalAlignment="Center"
+                               Margin="0,2,0,0"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- Прокручиваемая область с вопросами -->
+        <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto">
+            <StackPanel Name="QuestionsPanel">
+                <!-- Сюда динамически добавляются вопросы -->
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- Кнопки -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal"
+                    HorizontalAlignment="Right" Margin="0,16,0,0">
+            <TextBlock Name="AnsweredCountTextBlock"
+                       Text=""
+                       Style="{StaticResource CaptionStyle}"
+                       VerticalAlignment="Center"
+                       Margin="0,0,16,0"/>
+            <Button Name="FinishTestButton"
+                    Content="Завершить тест"
+                    Style="{StaticResource SuccessButtonStyle}"
+                    Width="180" Height="40"
+                    Click="FinishTestButton_Click"/>
+            <Button Content="Отмена"
+                    Style="{StaticResource SecondaryButtonStyle}"
+                    Width="130" Height="40" Margin="8,0,0,0"
+                    Click="CancelButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

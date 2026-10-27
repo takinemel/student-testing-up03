@@ -1,0 +1,471 @@
+﻿<Window x:Class="TestingStudents.StudentMainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Личный кабинет студента | Тестирование студентов"
+        Height="720" Width="1280"
+        Style="{StaticResource AppWindowStyle}"
+        Loaded="Window_Loaded"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="260"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--  БОКОВАЯ ПАНЕЛЬ  -->
+        <Border Grid.Column="0" Background="{StaticResource AccentBrush}">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- Логотип -->
+                <StackPanel Grid.Row="0" Margin="24,28,24,32">
+                    <TextBlock Text="Тестирование" FontSize="20" FontWeight="SemiBold"
+                               Foreground="White"/>
+                    <TextBlock Text="студентов" FontSize="14" Foreground="#B8C4D9"/>
+                </StackPanel>
+
+                <!-- Меню -->
+                <StackPanel Grid.Row="1">
+                    <Button Name="ProfileButton" Content="👤  Профиль"
+                            Style="{StaticResource PrimaryButtonStyle}"
+                            HorizontalContentAlignment="Left"
+                            Background="Transparent" Height="44"
+                            Margin="8,2" Click="ProfileButton_Click"/>
+                    <Button Name="TestsButton" Content="📝  Доступные тесты"
+                            Style="{StaticResource PrimaryButtonStyle}"
+                            HorizontalContentAlignment="Left"
+                            Background="Transparent" Height="44"
+                            Margin="8,2" Click="TestsButton_Click"/>
+                    <Button Name="ResultsButton" Content="📊  Мои результаты"
+                            Style="{StaticResource PrimaryButtonStyle}"
+                            HorizontalContentAlignment="Left"
+                            Background="Transparent" Height="44"
+                            Margin="8,2" Click="ResultsButton_Click"/>
+                </StackPanel>
+
+                <!-- Информация о пользователе -->
+                <StackPanel Grid.Row="2" Margin="24,0,24,24">
+                    <Border Background="#2C4F7C" CornerRadius="8" Padding="12">
+                        <StackPanel>
+                            <TextBlock Text="Студент" FontSize="12" Foreground="#B8C4D9"/>
+                            <TextBlock Name="SidebarUserNameTextBlock"
+                                       Text="—" FontSize="14" FontWeight="Medium"
+                                       Foreground="White" Margin="0,2,0,8"
+                                       TextWrapping="Wrap"/>
+                            <Button Content="Выйти"
+                                    Style="{StaticResource SecondaryButtonStyle}"
+                                    Height="30" FontSize="12"
+                                    Click="LogoutButton_Click"/>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!--  ОСНОВНАЯ ОБЛАСТЬ  -->
+        <Grid Grid.Column="1" Background="{StaticResource BgLightGrayBrush}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Шапка -->
+            <Border Grid.Row="0" Background="{StaticResource BgWhiteBrush}"
+                    BorderBrush="#DEE2E6" BorderThickness="0,0,0,1"
+                    Padding="24,16">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0">
+                        <TextBlock Name="PageTitleTextBlock"
+                                   Text="Профиль"
+                                   Style="{StaticResource H2Style}"
+                                   Margin="0"/>
+                        <TextBlock Name="PageSubtitleTextBlock"
+                                   Text="Личные данные и информация об обучении"
+                                   Style="{StaticResource CaptionStyle}"
+                                   Margin="0,2,0,0"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1" HorizontalAlignment="Right">
+                        <TextBlock Name="HeaderUserNameTextBlock"
+                                   Text="—"
+                                   Style="{StaticResource BodyStyle}"
+                                   FontWeight="Medium"
+                                   HorizontalAlignment="Right"/>
+                        <TextBlock Name="HeaderGroupTextBlock"
+                                   Text="—"
+                                   Style="{StaticResource CaptionStyle}"
+                                   HorizontalAlignment="Right"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <!-- Область содержимого -->
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto"
+                          Padding="24">
+                <Grid>
+                    <!-- ====== ПРОФИЛЬ ====== -->
+                    <StackPanel Name="ProfilePanel" Visibility="Visible">
+
+                        <!-- Карточка с личными данными -->
+                        <Border Style="{StaticResource CardStyle}">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="120"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <!-- Аватар -->
+                                <Border Grid.Column="0"
+                                        Width="100" Height="100"
+                                        CornerRadius="50"
+                                        Background="{StaticResource AccentBrush}"
+                                        VerticalAlignment="Top"
+                                        HorizontalAlignment="Left">
+                                    <TextBlock Name="AvatarInitialsTextBlock"
+                                               Text="?"
+                                               FontSize="36"
+                                               FontWeight="SemiBold"
+                                               Foreground="White"
+                                               HorizontalAlignment="Center"
+                                               VerticalAlignment="Center"/>
+                                </Border>
+
+                                <!-- Данные -->
+                                <StackPanel Grid.Column="1" Margin="20,0,0,0">
+                                    <TextBlock Text="Личные данные"
+                                               Style="{StaticResource H2Style}"
+                                               Margin="0,0,0,16"/>
+
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="140"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+
+                                        <TextBlock Grid.Row="0" Grid.Column="0"
+                                                   Text="Фамилия:"
+                                                   Style="{StaticResource CaptionStyle}"
+                                                   Margin="0,0,0,10"/>
+                                        <TextBlock Grid.Row="0" Grid.Column="1"
+                                                   Name="FamiliyaValueTextBlock"
+                                                   Text="—"
+                                                   Style="{StaticResource BodyStyle}"
+                                                   Margin="0,0,0,10"/>
+
+                                        <TextBlock Grid.Row="1" Grid.Column="0"
+                                                   Text="Имя:"
+                                                   Style="{StaticResource CaptionStyle}"
+                                                   Margin="0,0,0,10"/>
+                                        <TextBlock Grid.Row="1" Grid.Column="1"
+                                                   Name="ImyaValueTextBlock"
+                                                   Text="—"
+                                                   Style="{StaticResource BodyStyle}"
+                                                   Margin="0,0,0,10"/>
+
+                                        <TextBlock Grid.Row="2" Grid.Column="0"
+                                                   Text="Отчество:"
+                                                   Style="{StaticResource CaptionStyle}"
+                                                   Margin="0,0,0,10"/>
+                                        <TextBlock Grid.Row="2" Grid.Column="1"
+                                                   Name="OtchestvoValueTextBlock"
+                                                   Text="—"
+                                                   Style="{StaticResource BodyStyle}"
+                                                   Margin="0,0,0,10"/>
+
+                                        <TextBlock Grid.Row="3" Grid.Column="0"
+                                                   Text="Логин:"
+                                                   Style="{StaticResource CaptionStyle}"
+                                                   Margin="0,0,0,10"/>
+                                        <TextBlock Grid.Row="3" Grid.Column="1"
+                                                   Name="LoginValueTextBlock"
+                                                   Text="—"
+                                                   Style="{StaticResource BodyStyle}"
+                                                   Margin="0,0,0,10"/>
+                                    </Grid>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+
+                        <!-- Карточка с информацией об обучении -->
+                        <Border Style="{StaticResource CardStyle}">
+                            <StackPanel>
+                                <TextBlock Text="Информация об обучении"
+                                           Style="{StaticResource H2Style}"
+                                           Margin="0,0,0,16"/>
+
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="140"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+
+                                    <TextBlock Grid.Row="0" Grid.Column="0"
+                                               Text="Учебная группа:"
+                                               Style="{StaticResource CaptionStyle}"
+                                               Margin="0,0,0,10"/>
+                                    <TextBlock Grid.Row="0" Grid.Column="1"
+                                               Name="GroupValueTextBlock"
+                                               Text="—"
+                                               Style="{StaticResource BodyStyle}"
+                                               FontWeight="Medium"
+                                               Margin="0,0,0,10"/>
+
+                                    <TextBlock Grid.Row="1" Grid.Column="0"
+                                               Text="Курс:"
+                                               Style="{StaticResource CaptionStyle}"
+                                               Margin="0,0,0,10"/>
+                                    <TextBlock Grid.Row="1" Grid.Column="1"
+                                               Name="KursValueTextBlock"
+                                               Text="—"
+                                               Style="{StaticResource BodyStyle}"
+                                               Margin="0,0,0,10"/>
+
+                                    <TextBlock Grid.Row="2" Grid.Column="0"
+                                               Text="Отделение:"
+                                               Style="{StaticResource CaptionStyle}"
+                                               Margin="0,0,0,10"/>
+                                    <TextBlock Grid.Row="2" Grid.Column="1"
+                                               Name="OtdelenieValueTextBlock"
+                                               Text="—"
+                                               Style="{StaticResource BodyStyle}"
+                                               Margin="0,0,0,10"/>
+
+                                    <TextBlock Grid.Row="3" Grid.Column="0"
+                                               Text="Дата регистрации:"
+                                               Style="{StaticResource CaptionStyle}"
+                                               Margin="0,0,0,10"/>
+                                    <TextBlock Grid.Row="3" Grid.Column="1"
+                                               Name="DataSozdaniyaValueTextBlock"
+                                               Text="—"
+                                               Style="{StaticResource BodyStyle}"
+                                               Margin="0,0,0,10"/>
+                                </Grid>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Карточка со сводной статистикой -->
+                        <Border Style="{StaticResource CardStyle}">
+                            <StackPanel>
+                                <TextBlock Text="Моя статистика"
+                                           Style="{StaticResource H2Style}"
+                                           Margin="0,0,0,16"/>
+
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="16"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="16"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Border Grid.Column="0" Background="#F8F9FA"
+                                            CornerRadius="8" Padding="16">
+                                        <StackPanel>
+                                            <TextBlock Text="Пройдено тестов"
+                                                       Style="{StaticResource CaptionStyle}"/>
+                                            <TextBlock Name="CompletedTestsCountTextBlock"
+                                                       Text="0"
+                                                       FontSize="28"
+                                                       FontWeight="SemiBold"
+                                                       Foreground="{StaticResource AccentBrush}"
+                                                       Margin="0,4,0,0"/>
+                                        </StackPanel>
+                                    </Border>
+
+                                    <Border Grid.Column="2" Background="#F8F9FA"
+                                            CornerRadius="8" Padding="16">
+                                        <StackPanel>
+                                            <TextBlock Text="Средний процент"
+                                                       Style="{StaticResource CaptionStyle}"/>
+                                            <TextBlock Name="AveragePercentTextBlock"
+                                                       Text="—"
+                                                       FontSize="28"
+                                                       FontWeight="SemiBold"
+                                                       Foreground="{StaticResource SuccessBrush}"
+                                                       Margin="0,4,0,0"/>
+                                        </StackPanel>
+                                    </Border>
+
+                                    <Border Grid.Column="4" Background="#F8F9FA"
+                                            CornerRadius="8" Padding="16">
+                                        <StackPanel>
+                                            <TextBlock Text="Положительных оценок"
+                                                       Style="{StaticResource CaptionStyle}"/>
+                                            <TextBlock Name="PositiveGradesCountTextBlock"
+                                                       Text="0"
+                                                       FontSize="28"
+                                                       FontWeight="SemiBold"
+                                                       Foreground="{StaticResource SuccessBrush}"
+                                                       Margin="0,4,0,0"/>
+                                        </StackPanel>
+                                    </Border>
+                                </Grid>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+
+                    <!--  ДОСТУПНЫЕ ТЕСТЫ  -->
+                    <StackPanel Name="TestsPanel" Visibility="Collapsed">
+                        <Border Style="{StaticResource CardStyle}" Padding="0">
+                            <DataGrid Name="dgAvailableTests"
+                                      Style="{StaticResource AppDataGridStyle}"
+                                      AutoGenerateColumns="False"
+                                      IsReadOnly="True"
+                                      SelectionMode="Single"
+                                      MouseDoubleClick="dgAvailableTests_MouseDoubleClick">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="ID"
+                                                        Binding="{Binding IDTest}"
+                                                        Width="60"/>
+                                    <DataGridTextColumn Header="Название теста"
+                                                        Binding="{Binding Nazvanie}"
+                                                        Width="*"/>
+                                    <DataGridTextColumn Header="Дисциплина"
+                                                        Binding="{Binding NazvaniePredmeta}"
+                                                        Width="200"/>
+                                    <DataGridTextColumn Header="Время (мин)"
+                                                        Binding="{Binding Vremya_vipolneniya}"
+                                                        Width="110"/>
+                                    <DataGridTextColumn Header="Статус"
+                                                        Binding="{Binding StatusText}"
+                                                        Width="140"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Border>
+
+                        <Border Style="{StaticResource CardStyle}" Margin="0,0,0,0">
+                            <StackPanel>
+                                <TextBlock Text="Как пройти тест?"
+                                           Style="{StaticResource SubtitleStyle}"
+                                           Margin="0,0,0,8"/>
+                                <TextBlock Style="{StaticResource BodyStyle}"
+                                           TextWrapping="Wrap"
+                                           Text="Выберите тест в таблице и дважды щёлкните по нему, чтобы начать прохождение. Тест откроется в отдельном окне."/>
+                                <Button Name="StartTestButton"
+                                        Content="Начать выбранный тест"
+                                        Style="{StaticResource SuccessButtonStyle}"
+                                        Width="240"
+                                        HorizontalAlignment="Left"
+                                        Margin="0,16,0,0"
+                                        Click="StartTestButton_Click"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+
+                    <!-- РЕЗУЛЬТАТЫ  -->
+                    <StackPanel Name="ResultsPanel" Visibility="Collapsed">
+                        <Border Style="{StaticResource CardStyle}" Padding="0">
+                            <DataGrid Name="dgMyResults"
+                                      Style="{StaticResource AppDataGridStyle}"
+                                      AutoGenerateColumns="False"
+                                      IsReadOnly="True">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="ID"
+                                                        Binding="{Binding IDResultat}"
+                                                        Width="60"/>
+                                    <DataGridTextColumn Header="Тест"
+                                                        Binding="{Binding NazvanieTesta}"
+                                                        Width="*"/>
+                                    <DataGridTextColumn Header="Дисциплина"
+                                                        Binding="{Binding NazvaniePredmeta}"
+                                                        Width="200"/>
+                                    <DataGridTextColumn Header="Баллы"
+                                                        Binding="{Binding Balli}"
+                                                        Width="80"/>
+                                    <DataGridTextColumn Header="Процент"
+                                                        Binding="{Binding Procent, StringFormat={}{0:F2}%}"
+                                                        Width="100"/>
+                                    <DataGridTextColumn Header="Оценка"
+                                                        Binding="{Binding Ocenka}"
+                                                        Width="90"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Border>
+
+                        <Border Style="{StaticResource CardStyle}" Margin="0,0,0,0">
+                            <StackPanel>
+                                <TextBlock Text="Статистика по группе"
+                                           Style="{StaticResource SubtitleStyle}"
+                                           Margin="0,0,0,12"/>
+
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="16"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="16"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Border Grid.Column="0" Background="#F8F9FA"
+                                            CornerRadius="8" Padding="16">
+                                        <StackPanel>
+                                            <TextBlock Text="Всего прошли"
+                                                       Style="{StaticResource CaptionStyle}"/>
+                                            <TextBlock Name="GroupCompletedTextBlock"
+                                                       Text="—"
+                                                       FontSize="24"
+                                                       FontWeight="SemiBold"
+                                                       Foreground="{StaticResource AccentBrush}"
+                                                       Margin="0,4,0,0"/>
+                                        </StackPanel>
+                                    </Border>
+
+                                    <Border Grid.Column="2" Background="#F8F9FA"
+                                            CornerRadius="8" Padding="16">
+                                        <StackPanel>
+                                            <TextBlock Text="Средний балл группы"
+                                                       Style="{StaticResource CaptionStyle}"/>
+                                            <TextBlock Name="GroupAverageTextBlock"
+                                                       Text="—"
+                                                       FontSize="24"
+                                                       FontWeight="SemiBold"
+                                                       Foreground="{StaticResource AccentBrush}"
+                                                       Margin="0,4,0,0"/>
+                                        </StackPanel>
+                                    </Border>
+                                    <Border Grid.Column="4" Background="#F8F9FA"
+                                            CornerRadius="8" Padding="16">
+                                        <StackPanel>
+                                            <TextBlock Text="Сдали успешно"
+                                                       Style="{StaticResource CaptionStyle}"/>
+                                            <TextBlock Name="GroupPassedTextBlock"
+                                                       Text="—"
+                                                       FontSize="24"
+                                                       FontWeight="SemiBold"
+                                                       Foreground="{StaticResource SuccessBrush}"
+                                                       Margin="0,4,0,0"/>
+                                        </StackPanel>
+                                    </Border>
+                                </Grid>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                </Grid>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Window>

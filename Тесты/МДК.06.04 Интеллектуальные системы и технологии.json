@@ -1,0 +1,207 @@
+{
+  "Nazvanie": "Тест по МДК.06.04 Интеллектуальные системы и технологии",
+  "Opisanie": "Базовые знания по интеллектуальным системам и технологиям",
+  "VremyaVipolneniya": 20,
+  "Voprosi": [
+    {
+      "TextVoprosa": "Что такое искусственный интеллект?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Моделирование интеллектуальной деятельности", "IsCorrect": true },
+        { "TextOtvet": "База данных", "IsCorrect": false },
+        { "TextOtvet": "Язык программирования", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое машинное обучение?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Обучение моделей на данных", "IsCorrect": true },
+        { "TextOtvet": "Ручное программирование правил", "IsCorrect": false },
+        { "TextOtvet": "Дизайн интерфейса", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое нейронная сеть?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Модель из слоёв нейронов", "IsCorrect": true },
+        { "TextOtvet": "СУБД", "IsCorrect": false },
+        { "TextOtvet": "Тип файла", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое обучение с учителем?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Обучение на размеченных данных", "IsCorrect": true },
+        { "TextOtvet": "Без меток", "IsCorrect": false },
+        { "TextOtvet": "Без данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое обучение без учителя?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Поиск структуры в неразмеченных данных", "IsCorrect": true },
+        { "TextOtvet": "С учителем", "IsCorrect": false },
+        { "TextOtvet": "Только классификация", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое классификация?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Отнесение объекта к классу", "IsCorrect": true },
+        { "TextOtvet": "Предсказание числа", "IsCorrect": false },
+        { "TextOtvet": "Кластеризация", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое регрессия?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Предсказание непрерывного значения", "IsCorrect": true },
+        { "TextOtvet": "Классификация", "IsCorrect": false },
+        { "TextOtvet": "Кластеризация", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое кластеризация?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Группировка похожих объектов", "IsCorrect": true },
+        { "TextOtvet": "Классификация", "IsCorrect": false },
+        { "TextOtvet": "Регрессия", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое Python?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Язык программирования для ML", "IsCorrect": true },
+        { "TextOtvet": "СУБД", "IsCorrect": false },
+        { "TextOtvet": "Формат данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Какая библиотека Python для ML?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "scikit-learn", "IsCorrect": true },
+        { "TextOtvet": "Django", "IsCorrect": false },
+        { "TextOtvet": "Flask", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое TensorFlow?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Фреймворк для нейронных сетей", "IsCorrect": true },
+        { "TextOtvet": "СУБД", "IsCorrect": false },
+        { "TextOtvet": "Веб-сервер", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое PyTorch?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Фреймворк для ML", "IsCorrect": true },
+        { "TextOtvet": "Язык разметки", "IsCorrect": false },
+        { "TextOtvet": "СУБД", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое датасет?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Набор данных", "IsCorrect": true },
+        { "TextOtvet": "Модель", "IsCorrect": false },
+        { "TextOtvet": "Алгоритм", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое признак (feature)?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Характеристика объекта", "IsCorrect": true },
+        { "TextOtvet": "Метка класса", "IsCorrect": false },
+        { "TextOtvet": "Модель", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое переобучение?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Модель слишком подстроилась под обучающие данные", "IsCorrect": true },
+        { "TextOtvet": "Модель недообучена", "IsCorrect": false },
+        { "TextOtvet": "Модель не обучалась", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое компьютерное зрение?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Анализ изображений и видео", "IsCorrect": true },
+        { "TextOtvet": "Анализ текста", "IsCorrect": false },
+        { "TextOtvet": "Анализ звука", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое NLP?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Обработка естественного языка", "IsCorrect": true },
+        { "TextOtvet": "Нейронная сеть", "IsCorrect": false },
+        { "TextOtvet": "База данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое чат-бот?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Программа для диалога с пользователем", "IsCorrect": true },
+        { "TextOtvet": "СУБД", "IsCorrect": false },
+        { "TextOtvet": "Игра", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое большие данные?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Данные большого объёма и разнообразия", "IsCorrect": true },
+        { "TextOtvet": "Малые данные", "IsCorrect": false },
+        { "TextOtvet": "Текстовый файл", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое этика ИИ?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Принципы ответственного использования ИИ", "IsCorrect": true },
+        { "TextOtvet": "Скорость алгоритма", "IsCorrect": false },
+        { "TextOtvet": "Тип данных", "IsCorrect": false }
+      ]
+    }
+  ]
+}

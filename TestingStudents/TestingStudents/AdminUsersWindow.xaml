@@ -1,0 +1,205 @@
+﻿<Window x:Class="TestingStudents.AdminUsersWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Управление пользователями | Тестирование студентов"
+        Height="760" Width="1280"
+        Style="{StaticResource AppWindowStyle}"
+        Loaded="Window_Loaded"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Заголовок -->
+            <RowDefinition Height="Auto"/>
+            <!-- Поиск -->
+            <RowDefinition Height="*"/>
+            <!-- Таблица -->
+            <RowDefinition Height="Auto"/>
+            <!-- Форма -->
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок окна -->
+        <StackPanel Grid.Row="0" Margin="0,0,0,20">
+            <TextBlock Text="Управление пользователями" Style="{StaticResource H1Style}"/>
+            <TextBlock Text="Создание учётных записей, назначение ролей и блокировка доступа"
+                       Style="{StaticResource CaptionStyle}"/>
+        </StackPanel>
+
+        <!-- Панель поиска -->
+        <Border Grid.Row="1" Style="{StaticResource CardStyle}" Margin="0,0,0,16">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0"
+                           Text="Поиск (фамилия или логин):"
+                           Style="{StaticResource BodyStyle}"
+                           VerticalAlignment="Center"
+                           Margin="0,0,12,0"/>
+
+                <TextBox Name="TbSearch"
+                         Grid.Column="1"
+                         Style="{StaticResource AppTextBoxStyle}"
+                         TextChanged="TbSearch_TextChanged"
+                         ToolTip="Введите фамилию или логин пользователя"/>
+
+                <Button Grid.Column="2"
+                        Content="Сбросить"
+                        Style="{StaticResource SecondaryButtonStyle}"
+                        Width="130" Height="32"
+                        Margin="8,0,0,0"
+                        Click="ResetSearchButton_Click"/>
+            </Grid>
+        </Border>
+
+        <!-- Карточка с таблицей -->
+        <Border Grid.Row="2" Style="{StaticResource CardStyle}" Padding="0">
+            <DataGrid Name="dgUsers"
+                      Style="{StaticResource AppDataGridStyle}"
+                      SelectionChanged="dgUsers_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Binding="{Binding IDUser}" Width="55"/>
+                    <DataGridTextColumn Header="Фамилия" Binding="{Binding Familiya}" Width="140"/>
+                    <DataGridTextColumn Header="Имя" Binding="{Binding Imya}" Width="110"/>
+                    <DataGridTextColumn Header="Отчество" Binding="{Binding Otchestvo}" Width="140"/>
+                    <DataGridTextColumn Header="Логин" Binding="{Binding Login}" Width="130"/>
+                    <DataGridTextColumn Header="Пароль" Binding="{Binding Parol}" Width="130"/>
+                    <DataGridTextColumn Header="Роль" Binding="{Binding NazvanieRoli}" Width="140"/>
+                    <DataGridTextColumn Header="Дата создания"
+                                        Binding="{Binding DataSozdaniya, StringFormat=dd.MM.yyyy}"
+                                        Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Border>
+
+        <!-- Карточка с формой -->
+        <Border Grid.Row="3" Style="{StaticResource CardStyle}">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- Строка 1: поля ввода -->
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- ID -->
+                    <StackPanel Grid.Column="0" Margin="0,0,8,0">
+                        <TextBlock Text="ID" Style="{StaticResource FieldLabelStyle}"/>
+                        <TextBox Name="IDUserTextBox"
+                                 Style="{StaticResource AppTextBoxStyle}"
+                                 IsReadOnly="True"/>
+                    </StackPanel>
+
+                    <!-- Фамилия -->
+                    <StackPanel Grid.Column="1">
+                        <TextBlock Text="Фамилия" Style="{StaticResource FieldLabelStyle}"/>
+                        <TextBox Name="FamiliyaTextBox" Style="{StaticResource AppTextBoxStyle}"/>
+                    </StackPanel>
+
+                    <!-- Имя -->
+                    <StackPanel Grid.Column="3">
+                        <TextBlock Text="Имя" Style="{StaticResource FieldLabelStyle}"/>
+                        <TextBox Name="ImyaTextBox" Style="{StaticResource AppTextBoxStyle}"/>
+                    </StackPanel>
+
+                    <!-- Отчество -->
+                    <StackPanel Grid.Column="5">
+                        <TextBlock Text="Отчество" Style="{StaticResource FieldLabelStyle}"/>
+                        <TextBox Name="OtchestvoTextBox" Style="{StaticResource AppTextBoxStyle}"/>
+                    </StackPanel>
+
+                    <!-- Логин -->
+                    <StackPanel Grid.Column="7">
+                        <TextBlock Text="Логин" Style="{StaticResource FieldLabelStyle}"/>
+                        <TextBox Name="LoginTextBox" Style="{StaticResource AppTextBoxStyle}"/>
+                    </StackPanel>
+
+                    <!-- Пароль -->
+                    <StackPanel Grid.Column="9">
+                        <TextBlock Text="Пароль" Style="{StaticResource FieldLabelStyle}"/>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <!-- Обычное поле с открытым паролем -->
+                            <TextBox Name="PasswordTextBox"
+                                     Grid.Column="0"
+                                     Style="{StaticResource AppTextBoxStyle}"
+                                     Visibility="Collapsed"/>
+
+                            <!-- Поле со скрытым паролем -->
+                            <PasswordBox Name="PasswordBoxHidden"
+                                         Grid.Column="0"
+                                         Style="{StaticResource AppPasswordBoxStyle}"/>
+
+                            <!-- Кнопка показать/скрыть -->
+                            <Button Name="TogglePasswordButton"
+                                    Grid.Column="1"
+                                    Content="👁"
+                                    Width="38"
+                                    Height="38"
+                                    Margin="6,0,0,0"
+                                    ToolTip="Показать / скрыть пароль"
+                                    Style="{StaticResource SecondaryButtonStyle}"
+                                    Padding="0"
+                                    Click="TogglePasswordButton_Click"/>
+                        </Grid>
+                    </StackPanel>
+
+                    <!-- Роль -->
+                    <StackPanel Grid.Column="11">
+                        <TextBlock Text="Роль" Style="{StaticResource FieldLabelStyle}"/>
+                        <ComboBox Name="RoleComboBox"
+                                  Style="{StaticResource AppComboBoxStyle}"
+                                  DisplayMemberPath="NazvanieRoli"
+                                  SelectedValuePath="IDRole"/>
+                    </StackPanel>
+                </Grid>
+
+                <!-- Строка 2: кнопки -->
+                <StackPanel Grid.Row="1"
+                            Orientation="Horizontal"
+                            HorizontalAlignment="Right"
+                            Margin="0,16,0,0">
+                    <Button Name="AddButton" Content="Добавить"
+                            Style="{StaticResource PrimaryButtonStyle}"
+                            Width="130" Margin="0,0,8,0"
+                            Click="AddButton_Click"/>
+                    <Button Name="ChangeButton" Content="Изменить"
+                            Style="{StaticResource PrimaryButtonStyle}"
+                            Width="130" Margin="0,0,8,0"
+                            Click="ChangeButton_Click"/>
+                    <Button Name="DeleteButton" Content="Удалить"
+                            Style="{StaticResource DangerButtonStyle}"
+                            Width="130" Margin="0,0,8,0"
+                            Click="DeleteButton_Click"/>
+                    <Button Name="ExitButton" Content="Выйти"
+                            Style="{StaticResource SecondaryButtonStyle}"
+                            Width="130"
+                            Click="ExitButton_Click"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

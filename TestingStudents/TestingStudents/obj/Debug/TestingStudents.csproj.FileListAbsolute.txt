@@ -1,0 +1,110 @@
+C:\Users\Гость.B301-12.000\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.csproj.AssemblyReference.cache
+C:\Users\Гость.B301-12.000\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\Resources\Styles.baml
+C:\Users\Гость.B301-12.000\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\MainWindow.g.cs
+C:\Users\Гость.B301-12.000\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\App.g.cs
+C:\Users\Гость.B301-12.000\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents_MarkupCompile.cache
+C:\Users\Гость.B301-12.000\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents_MarkupCompile.lref
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\bin\Debug\TestingStudents.exe.config
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\bin\Debug\TestingStudents.exe
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\bin\Debug\TestingStudents.pdb
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.csproj.AssemblyReference.cache
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\MainWindow.g.cs
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\App.g.cs
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents_MarkupCompile.cache
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents_MarkupCompile.lref
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\MainWindow.baml
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.g.resources
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.Properties.Resources.resources
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.csproj.GenerateResource.cache
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.csproj.CoreCompileInputs.cache
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.exe
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.pdb
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\Styles\Styles.baml
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminGroupsWindow.baml
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminMainWindow.baml
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminTestsWindow.baml
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminUsersWindow.baml
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminGroupsWindow.g.cs
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminMainWindow.g.cs
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminTestsWindow.g.cs
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminUsersWindow.g.cs
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.csproj.AssemblyReference.cache
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminGroupsWindow.baml
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminMainWindow.baml
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminTestsWindow.baml
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminUsersWindow.baml
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\Styles\Styles.baml
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminGroupsWindow.g.cs
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminMainWindow.g.cs
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminTestsWindow.g.cs
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminUsersWindow.g.cs
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\MainWindow.g.cs
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\StudentMainWindow.g.cs
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TeacherMainWindow.g.cs
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\App.g.cs
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents_MarkupCompile.cache
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents_MarkupCompile.lref
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\bin\Debug\TestingStudents.exe.config
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\bin\Debug\TestingStudents.exe
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\bin\Debug\TestingStudents.pdb
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\App.baml
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\MainWindow.baml
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\StudentMainWindow.baml
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TeacherMainWindow.baml
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.g.resources
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.Properties.Resources.resources
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.csproj.GenerateResource.cache
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.csproj.CoreCompileInputs.cache
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingS.4438FBF5.Up2Date
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.exe
+C:\Users\Гость.B301-05.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.pdb
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\bin\Debug\Newtonsoft.Json.dll
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\bin\Debug\Newtonsoft.Json.xml
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\StudentMainWindow.g.cs
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TeacherMainWindow.g.cs
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\App.baml
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\StudentMainWindow.baml
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TeacherMainWindow.baml
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingS.4438FBF5.Up2Date
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestPassingWindow.baml
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestPassingWindow.g.cs
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\bin\Debug\TestingStudents.exe.config
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\bin\Debug\TestingStudents.exe
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\bin\Debug\TestingStudents.pdb
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.csproj.AssemblyReference.cache
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminGroupsWindow.baml
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminMainWindow.baml
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminTestsWindow.baml
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminUsersWindow.baml
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\StudentMainWindow.baml
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\Styles\Styles.baml
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestPassingWindow.baml
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminGroupsWindow.g.cs
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminMainWindow.g.cs
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminTestsWindow.g.cs
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminUsersWindow.g.cs
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\MainWindow.g.cs
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\StudentMainWindow.g.cs
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TeacherMainWindow.g.cs
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestPassingWindow.g.cs
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\App.g.cs
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents_MarkupCompile.cache
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents_MarkupCompile.lref
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\App.baml
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\MainWindow.baml
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TeacherMainWindow.baml
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.g.resources
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.Properties.Resources.resources
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.csproj.GenerateResource.cache
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.csproj.CoreCompileInputs.cache
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingS.4438FBF5.Up2Date
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.exe
+C:\Users\Гость.B301-04.004\Desktop\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\TestingStudents.pdb
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AddStudentToGroupWindow.baml
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AddStudentToGroupWindow.g.cs
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminStatisticsWindow.baml
+D:\ЯГК\4 КУРС\УП03\up03_melnikov_prilojenie\TestingStudents\TestingStudents\obj\Debug\AdminStatisticsWindow.g.cs

@@ -1,0 +1,207 @@
+{
+  "Nazvanie": "Тест по МДК.05.01 Проектирование и дизайн ИС",
+  "Opisanie": "Базовые знания по проектированию и дизайну информационных систем",
+  "VremyaVipolneniya": 20,
+  "Voprosi": [
+    {
+      "TextVoprosa": "Что такое информационная система?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Совокупность данных, процессов и людей", "IsCorrect": true },
+        { "TextOtvet": "Только база данных", "IsCorrect": false },
+        { "TextOtvet": "Только сервер", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое архитектура ИС?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Структура компонентов системы и их взаимодействие", "IsCorrect": true },
+        { "TextOtvet": "Дизайн логотипа", "IsCorrect": false },
+        { "TextOtvet": "Список сотрудников", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое клиент-серверная архитектура?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Разделение на клиента и сервер", "IsCorrect": true },
+        { "TextOtvet": "Одноуровневая система", "IsCorrect": false },
+        { "TextOtvet": "Только мобильное приложение", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое трёхуровневая архитектура?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Представление, логика, данные", "IsCorrect": true },
+        { "TextOtvet": "Клиент, сервер, БД", "IsCorrect": false },
+        { "TextOtvet": "Только интерфейс", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое ERD?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Диаграмма «сущность–связь»", "IsCorrect": true },
+        { "TextOtvet": "Диаграмма классов", "IsCorrect": false },
+        { "TextOtvet": "Диаграмма потоков данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое нормализация БД?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Устранение избыточности данных", "IsCorrect": true },
+        { "TextOtvet": "Шифрование данных", "IsCorrect": false },
+        { "TextOtvet": "Резервное копирование", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое первичный ключ?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Уникальный идентификатор записи", "IsCorrect": true },
+        { "TextOtvet": "Поле с дубликатами", "IsCorrect": false },
+        { "TextOtvet": "Внешний ключ", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое внешний ключ?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Ссылка на первичный ключ другой таблицы", "IsCorrect": true },
+        { "TextOtvet": "Уникальный ключ", "IsCorrect": false },
+        { "TextOtvet": "Индекс", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое UX?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Пользовательский опыт", "IsCorrect": true },
+        { "TextOtvet": "Язык программирования", "IsCorrect": false },
+        { "TextOtvet": "СУБД", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое UI?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Пользовательский интерфейс", "IsCorrect": true },
+        { "TextOtvet": "Внутренняя логика", "IsCorrect": false },
+        { "TextOtvet": "База данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое прототип интерфейса?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Предварительная модель интерфейса", "IsCorrect": true },
+        { "TextOtvet": "Финальный дизайн", "IsCorrect": false },
+        { "TextOtvet": "Техническое задание", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое Figma?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Инструмент для дизайна интерфейсов", "IsCorrect": true },
+        { "TextOtvet": "СУБД", "IsCorrect": false },
+        { "TextOtvet": "Язык программирования", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое мокап?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Статичный макет интерфейса", "IsCorrect": true },
+        { "TextOtvet": "Анимация", "IsCorrect": false },
+        { "TextOtvet": "Код страницы", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое адаптивный дизайн?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Подстройка под разные устройства", "IsCorrect": true },
+        { "TextOtvet": "Только для ПК", "IsCorrect": false },
+        { "TextOtvet": "Только для мобильных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое API?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Интерфейс программирования приложений", "IsCorrect": true },
+        { "TextOtvet": "База данных", "IsCorrect": false },
+        { "TextOtvet": "Язык разметки", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое REST?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Архитектурный стиль веб-сервисов", "IsCorrect": true },
+        { "TextOtvet": "СУБД", "IsCorrect": false },
+        { "TextOtvet": "Формат изображений", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое JSON?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Формат обмена данными", "IsCorrect": true },
+        { "TextOtvet": "Язык программирования", "IsCorrect": false },
+        { "TextOtvet": "СУБД", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое ТЗ?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Техническое задание", "IsCorrect": true },
+        { "TextOtvet": "Технический запуск", "IsCorrect": false },
+        { "TextOtvet": "Тип данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое масштабируемость ИС?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Способность выдерживать рост нагрузки", "IsCorrect": true },
+        { "TextOtvet": "Скорость интернета", "IsCorrect": false },
+        { "TextOtvet": "Размер экрана", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое безопасность ИС?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Защита данных и доступа", "IsCorrect": true },
+        { "TextOtvet": "Скорость работы", "IsCorrect": false },
+        { "TextOtvet": "Дизайн интерфейса", "IsCorrect": false }
+      ]
+    }
+  ]
+}

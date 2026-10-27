@@ -1,0 +1,207 @@
+{
+  "Nazvanie": "Тест по МДК.05.03 Тестирование информационных систем",
+  "Opisanie": "Базовые знания по тестированию информационных систем",
+  "VremyaVipolneniya": 20,
+  "Voprosi": [
+    {
+      "TextVoprosa": "Что такое тестирование ПО?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Проверка соответствия требованиям", "IsCorrect": true },
+        { "TextOtvet": "Написание кода", "IsCorrect": false },
+        { "TextOtvet": "Дизайн интерфейса", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое баг?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Ошибка в программе", "IsCorrect": true },
+        { "TextOtvet": "Функция", "IsCorrect": false },
+        { "TextOtvet": "Тест-кейс", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое тест-кейс?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Описание шагов и ожидаемого результата", "IsCorrect": true },
+        { "TextOtvet": "Код программы", "IsCorrect": false },
+        { "TextOtvet": "База данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое чек-лист?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Список проверок", "IsCorrect": true },
+        { "TextOtvet": "Отчёт о багах", "IsCorrect": false },
+        { "TextOtvet": "План проекта", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое регрессионное тестирование?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Проверка, что изменения не сломали старое", "IsCorrect": true },
+        { "TextOtvet": "Тестирование новой функции", "IsCorrect": false },
+        { "TextOtvet": "Тестирование нагрузки", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое функциональное тестирование?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Проверка функций системы", "IsCorrect": true },
+        { "TextOtvet": "Проверка скорости", "IsCorrect": false },
+        { "TextOtvet": "Проверка безопасности", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое нагрузочное тестирование?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Проверка при высокой нагрузке", "IsCorrect": true },
+        { "TextOtvet": "Проверка интерфейса", "IsCorrect": false },
+        { "TextOtvet": "Проверка кода", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое unit-тесты?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Тесты отдельных модулей", "IsCorrect": true },
+        { "TextOtvet": "Тесты всей системы", "IsCorrect": false },
+        { "TextOtvet": "Ручные тесты", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое интеграционное тестирование?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Проверка взаимодействия модулей", "IsCorrect": true },
+        { "TextOtvet": "Проверка одного модуля", "IsCorrect": false },
+        { "TextOtvet": "Проверка дизайна", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое Selenium?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Инструмент автоматизации тестирования веб-приложений", "IsCorrect": true },
+        { "TextOtvet": "СУБД", "IsCorrect": false },
+        { "TextOtvet": "Язык программирования", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое Postman?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Инструмент тестирования API", "IsCorrect": true },
+        { "TextOtvet": "Редактор кода", "IsCorrect": false },
+        { "TextOtvet": "СУБД", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое JUnit?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Фреймворк для unit-тестов на Java", "IsCorrect": true },
+        { "TextOtvet": "СУБД", "IsCorrect": false },
+        { "TextOtvet": "Веб-сервер", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое тест-план?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Документ с планом тестирования", "IsCorrect": true },
+        { "TextOtvet": "Список багов", "IsCorrect": false },
+        { "TextOtvet": "Код тестов", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое баг-репорт?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Описание найденной ошибки", "IsCorrect": true },
+        { "TextOtvet": "Тест-кейс", "IsCorrect": false },
+        { "TextOtvet": "Чек-лист", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое severity бага?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Степень влияния ошибки", "IsCorrect": true },
+        { "TextOtvet": "Время создания", "IsCorrect": false },
+        { "TextOtvet": "Автор", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое priority бага?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Очерёдность исправления", "IsCorrect": true },
+        { "TextOtvet": "Степень влияния", "IsCorrect": false },
+        { "TextOtvet": "Тип ошибки", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое smoke-тестирование?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Быстрая проверка основных функций", "IsCorrect": true },
+        { "TextOtvet": "Глубокое тестирование", "IsCorrect": false },
+        { "TextOtvet": "Тестирование нагрузки", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое автоматизированное тестирование?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Тесты, выполняемые программами", "IsCorrect": true },
+        { "TextOtvet": "Ручные тесты", "IsCorrect": false },
+        { "TextOtvet": "Тесты без кода", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое CI/CD?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Непрерывная интеграция и доставка", "IsCorrect": true },
+        { "TextOtvet": "База данных", "IsCorrect": false },
+        { "TextOtvet": "Язык программирования", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое метрика тестирования?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Количественный показатель процесса тестирования", "IsCorrect": true },
+        { "TextOtvet": "Тип бага", "IsCorrect": false },
+        { "TextOtvet": "Инструмент", "IsCorrect": false }
+      ]
+    }
+  ]
+}

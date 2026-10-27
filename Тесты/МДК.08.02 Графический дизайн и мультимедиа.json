@@ -1,0 +1,207 @@
+{
+  "Nazvanie": "Тест по МДК.08.02 Графический дизайн и мультимедиа",
+  "Opisanie": "Базовые знания по графическому дизайну и мультимедиа",
+  "VremyaVipolneniya": 20,
+  "Voprosi": [
+    {
+      "TextVoprosa": "Что такое растровая графика?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Изображение из пикселей", "IsCorrect": true },
+        { "TextOtvet": "Из линий и кривых", "IsCorrect": false },
+        { "TextOtvet": "Из текста", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое векторная графика?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Изображение из геометрических примитивов", "IsCorrect": true },
+        { "TextOtvet": "Из пикселей", "IsCorrect": false },
+        { "TextOtvet": "Из звуков", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое разрешение изображения?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Количество пикселей", "IsCorrect": true },
+        { "TextOtvet": "Размер файла", "IsCorrect": false },
+        { "TextOtvet": "Цвет", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое DPI?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Точек на дюйм", "IsCorrect": true },
+        { "TextOtvet": "Пикселей на метр", "IsCorrect": false },
+        { "TextOtvet": "Бит на пиксель", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое RGB?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Цветовая модель красный-зелёный-синий", "IsCorrect": true },
+        { "TextOtvet": "Формат файла", "IsCorrect": false },
+        { "TextOtvet": "Тип шрифта", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое CMYK?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Цветовая модель для печати", "IsCorrect": true },
+        { "TextOtvet": "Для экрана", "IsCorrect": false },
+        { "TextOtvet": "Для видео", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое Adobe Photoshop?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Редактор растровой графики", "IsCorrect": true },
+        { "TextOtvet": "Векторный редактор", "IsCorrect": false },
+        { "TextOtvet": "СУБД", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое Adobe Illustrator?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Редактор векторной графики", "IsCorrect": true },
+        { "TextOtvet": "Растровый редактор", "IsCorrect": false },
+        { "TextOtvet": "Аудиоредактор", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое слой в графическом редакторе?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Отдельный уровень изображения", "IsCorrect": true },
+        { "TextOtvet": "Файл", "IsCorrect": false },
+        { "TextOtvet": "Инструмент", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое маска слоя?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Управление видимостью части слоя", "IsCorrect": true },
+        { "TextOtvet": "Цветокоррекция", "IsCorrect": false },
+        { "TextOtvet": "Фильтр", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое формат PNG?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Растровый формат с прозрачностью", "IsCorrect": true },
+        { "TextOtvet": "Векторный формат", "IsCorrect": false },
+        { "TextOtvet": "Аудиоформат", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое формат SVG?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Векторный формат", "IsCorrect": true },
+        { "TextOtvet": "Растровый формат", "IsCorrect": false },
+        { "TextOtvet": "Видеоформат", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое мультимедиа?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Сочетание текста, графики, звука, видео", "IsCorrect": true },
+        { "TextOtvet": "Только текст", "IsCorrect": false },
+        { "TextOtvet": "Только звук", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое анимация?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Иллюзия движения", "IsCorrect": true },
+        { "TextOtvet": "Статичное изображение", "IsCorrect": false },
+        { "TextOtvet": "Текст", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое ключевой кадр?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Опорный кадр анимации", "IsCorrect": true },
+        { "TextOtvet": "Финальный кадр", "IsCorrect": false },
+        { "TextOtvet": "Первый кадр", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое таймлайн?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Временная шкала", "IsCorrect": true },
+        { "TextOtvet": "Палитра", "IsCorrect": false },
+        { "TextOtvet": "Слой", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое видеомонтаж?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Сборка и обработка видео", "IsCorrect": true },
+        { "TextOtvet": "Съёмка", "IsCorrect": false },
+        { "TextOtvet": "Печать", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое звуковая дорожка?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Аудиоданные в проекте", "IsCorrect": true },
+        { "TextOtvet": "Видео", "IsCorrect": false },
+        { "TextOtvet": "Текст", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое брендинг?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Создание образа бренда", "IsCorrect": true },
+        { "TextOtvet": "Печать", "IsCorrect": false },
+        { "TextOtvet": "Видеосъёмка", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое типографика?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Искусство оформления текста", "IsCorrect": true },
+        { "TextOtvet": "Рисование", "IsCorrect": false },
+        { "TextOtvet": "Фотография", "IsCorrect": false }
+      ]
+    }
+  ]
+}

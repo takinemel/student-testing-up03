@@ -1,0 +1,207 @@
+{
+  "Nazvanie": "Тест по МДК.05.02 Разработка кода ИС",
+  "Opisanie": "Базовые знания по разработке кода информационных систем",
+  "VremyaVipolneniya": 20,
+  "Voprosi": [
+    {
+      "TextVoprosa": "Что такое переменная?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Именованная область памяти", "IsCorrect": true },
+        { "TextOtvet": "Функция", "IsCorrect": false },
+        { "TextOtvet": "Класс", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое цикл?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Повторяющееся выполнение блока кода", "IsCorrect": true },
+        { "TextOtvet": "Условие", "IsCorrect": false },
+        { "TextOtvet": "Массив", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое массив?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Набор однотипных элементов", "IsCorrect": true },
+        { "TextOtvet": "Одно число", "IsCorrect": false },
+        { "TextOtvet": "Строка", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое функция?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Блок кода, выполняющий задачу", "IsCorrect": true },
+        { "TextOtvet": "Переменная", "IsCorrect": false },
+        { "TextOtvet": "Тип данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое ООП?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Объектно-ориентированное программирование", "IsCorrect": true },
+        { "TextOtvet": "Операционная система", "IsCorrect": false },
+        { "TextOtvet": "СУБД", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое класс?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Шаблон для создания объектов", "IsCorrect": true },
+        { "TextOtvet": "Переменная", "IsCorrect": false },
+        { "TextOtvet": "Цикл", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое наследование?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Передача свойств от родителя к потомку", "IsCorrect": true },
+        { "TextOtvet": "Копирование файлов", "IsCorrect": false },
+        { "TextOtvet": "Сортировка", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое инкапсуляция?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Скрытие внутренней реализации", "IsCorrect": true },
+        { "TextOtvet": "Наследование", "IsCorrect": false },
+        { "TextOtvet": "Полиморфизм", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое полиморфизм?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Один интерфейс — разные реализации", "IsCorrect": true },
+        { "TextOtvet": "Скрытие данных", "IsCorrect": false },
+        { "TextOtvet": "Копирование", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое SQL?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Язык запросов к базам данных", "IsCorrect": true },
+        { "TextOtvet": "Язык разметки", "IsCorrect": false },
+        { "TextOtvet": "Язык стилей", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Какой оператор выбирает данные в SQL?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "SELECT", "IsCorrect": true },
+        { "TextOtvet": "INSERT", "IsCorrect": false },
+        { "TextOtvet": "UPDATE", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое commit?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Фиксация изменений в репозитории", "IsCorrect": true },
+        { "TextOtvet": "Удаление файлов", "IsCorrect": false },
+        { "TextOtvet": "Создание ветки", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое ветка (branch) в Git?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Независимая линия разработки", "IsCorrect": true },
+        { "TextOtvet": "Файл конфигурации", "IsCorrect": false },
+        { "TextOtvet": "Комментарий", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое API-запрос?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Обращение к интерфейсу приложения", "IsCorrect": true },
+        { "TextOtvet": "Запрос в БД", "IsCorrect": false },
+        { "TextOtvet": "Ошибка", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое HTTP-метод GET?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Получение данных", "IsCorrect": true },
+        { "TextOtvet": "Удаление данных", "IsCorrect": false },
+        { "TextOtvet": "Изменение данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое HTTP-метод POST?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Отправка данных на сервер", "IsCorrect": true },
+        { "TextOtvet": "Получение данных", "IsCorrect": false },
+        { "TextOtvet": "Удаление данных", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое JSON-ответ?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Данные в формате JSON", "IsCorrect": true },
+        { "TextOtvet": "HTML-страница", "IsCorrect": false },
+        { "TextOtvet": "Изображение", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое отладка?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Поиск и исправление ошибок", "IsCorrect": true },
+        { "TextOtvet": "Написание кода", "IsCorrect": false },
+        { "TextOtvet": "Компиляция", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое рефакторинг?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Улучшение кода без изменения поведения", "IsCorrect": true },
+        { "TextOtvet": "Добавление функций", "IsCorrect": false },
+        { "TextOtvet": "Удаление тестов", "IsCorrect": false }
+      ]
+    },
+    {
+      "TextVoprosa": "Что такое код-ревью?",
+      "TipVoprosa": "Single",
+      "KolVoBallov": 1,
+      "Otvety": [
+        { "TextOtvet": "Проверка кода другим разработчиком", "IsCorrect": true },
+        { "TextOtvet": "Запуск тестов", "IsCorrect": false },
+        { "TextOtvet": "Сборка проекта", "IsCorrect": false }
+      ]
+    }
+  ]
+}
